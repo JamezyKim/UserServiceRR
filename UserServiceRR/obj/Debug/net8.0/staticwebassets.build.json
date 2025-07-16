@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2opBnDFK7AdRRqrZ48kX8Kf2hF86lEvCuXFPy+0+gQc=",
+  "Hash": "zHPe94W1kdttd7Igr5vTYC1O2z86PyJKja53kpG707M=",
   "Source": "UserServiceRR",
   "BasePath": "_content/UserServiceRR",
   "Mode": "Default",
@@ -59,48 +59,6 @@
       "OriginalItemSpec": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\UserServiceRR.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Baby.html",
-      "SourceId": "UserServiceRR",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\",
-      "BasePath": "_content/UserServiceRR",
-      "RelativePath": "Baby#[.{fingerprint}]?.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ey8ai53sb3",
-      "Integrity": "Kv6S+Kkoi4j9w2ejqOObQnJahczXnFihgoBGtrBZO/E=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Baby.html"
-    },
-    {
-      "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Clothing.html",
-      "SourceId": "UserServiceRR",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\",
-      "BasePath": "_content/UserServiceRR",
-      "RelativePath": "Clothing#[.{fingerprint}]?.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "fqyrnik1i6",
-      "Integrity": "l2cGHiEoI6pfqeXy47bYkAkK1m/blLXpSNg1zr28bxU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Clothing.html"
-    },
-    {
       "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\css\\site.css",
       "SourceId": "UserServiceRR",
       "SourceType": "Discovered",
@@ -143,27 +101,6 @@
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Electronics.html",
-      "SourceId": "UserServiceRR",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\",
-      "BasePath": "_content/UserServiceRR",
-      "RelativePath": "Electronics#[.{fingerprint}]?.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "g2og5a9th3",
-      "Integrity": "KMVn41Yve+yfwW4qs7QnISyUryd/ZRfUbE5UWMqaLvQ=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Electronics.html"
-    },
-    {
       "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\favicon.ico",
       "SourceId": "UserServiceRR",
       "SourceType": "Discovered",
@@ -185,12 +122,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Furniture.html",
+      "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\Baby.html",
       "SourceId": "UserServiceRR",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\",
       "BasePath": "_content/UserServiceRR",
-      "RelativePath": "Furniture#[.{fingerprint}]?.html",
+      "RelativePath": "html/Baby#[.{fingerprint}]?.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -199,19 +136,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3weeb64azx",
-      "Integrity": "HTp6HJ7N0WvkfSoU2d3neOodT1sznQviyBY+fN8syd8=",
+      "Fingerprint": "0rjocs13oa",
+      "Integrity": "BDq3gAac8Lmp9oCS/kB+gaR9zIGveDxuKy63Ij5msSQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Furniture.html"
+      "OriginalItemSpec": "wwwroot\\html\\Baby.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Grocery.html",
+      "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\Clothing.html",
       "SourceId": "UserServiceRR",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\",
       "BasePath": "_content/UserServiceRR",
-      "RelativePath": "Grocery#[.{fingerprint}]?.html",
+      "RelativePath": "html/Clothing#[.{fingerprint}]?.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -220,19 +157,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xrtf26mmco",
-      "Integrity": "fT4f7tgl+8UrnhBUzAlzw+wGkIJQsRIxpRRBycsJaqY=",
+      "Fingerprint": "pe0kehqbe8",
+      "Integrity": "EVGcd+BCTAwhenhs94ge278e4NaU0mmXTFJeasm8mTI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Grocery.html"
+      "OriginalItemSpec": "wwwroot\\html\\Clothing.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Home.html",
+      "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\Electronics.html",
       "SourceId": "UserServiceRR",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\",
       "BasePath": "_content/UserServiceRR",
-      "RelativePath": "Home#[.{fingerprint}]?.html",
+      "RelativePath": "html/Electronics#[.{fingerprint}]?.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -241,19 +178,82 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dlwkh0ovwm",
-      "Integrity": "/yxCXCaKHg+036YTjdGzxRajhIgB8RN0m+JKAnwKL28=",
+      "Fingerprint": "al6uv08z4l",
+      "Integrity": "IsT8EIx3+unpONyd+XowtK0X7Q1QdbqIvLDAM0MTQeY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Home.html"
+      "OriginalItemSpec": "wwwroot\\html\\Electronics.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\homePage.html",
+      "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\Furniture.html",
       "SourceId": "UserServiceRR",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\",
       "BasePath": "_content/UserServiceRR",
-      "RelativePath": "homePage#[.{fingerprint}]?.html",
+      "RelativePath": "html/Furniture#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lkr7nx9ibo",
+      "Integrity": "q82K+mO+SOP44z5yll62udiAk/mdBq5YfRyW+F46QsE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\html\\Furniture.html"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\Grocery.html",
+      "SourceId": "UserServiceRR",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\",
+      "BasePath": "_content/UserServiceRR",
+      "RelativePath": "html/Grocery#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7tibm2nh0j",
+      "Integrity": "+wFq00Bfqac+V41SQ0cECGr8f3MJwNOCATN4kyiXn6o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\html\\Grocery.html"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\Home.html",
+      "SourceId": "UserServiceRR",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\",
+      "BasePath": "_content/UserServiceRR",
+      "RelativePath": "html/Home#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8rikmo19sy",
+      "Integrity": "9CF1oaEgVMs1c28LF3eVQCyqCIN1gnPQulRIFsrYcFc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\html\\Home.html"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\homePage.html",
+      "SourceId": "UserServiceRR",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\",
+      "BasePath": "_content/UserServiceRR",
+      "RelativePath": "html/homePage#[.{fingerprint}]?.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -266,7 +266,49 @@
       "Integrity": "erY9WF1e/xHYPkP/6gyp0AYMjAhftLmXx/ntmhKHOrI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\homePage.html"
+      "OriginalItemSpec": "wwwroot\\html\\homePage.html"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\signIn.html",
+      "SourceId": "UserServiceRR",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\",
+      "BasePath": "_content/UserServiceRR",
+      "RelativePath": "html/signIn#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "myuwjyum3l",
+      "Integrity": "vn/M453Cb3NEd4F5BAbPZugB5tXGe4Map7LBHHmhGsI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\html\\signIn.html"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\signUp.html",
+      "SourceId": "UserServiceRR",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\",
+      "BasePath": "_content/UserServiceRR",
+      "RelativePath": "html/signUp#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oatit45uci",
+      "Integrity": "0AEqB1KAlwxToD93/tm3XSUQEVF92Ou0jJQS1/tidBA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\html\\signUp.html"
     },
     {
       "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Images\\Baby.webp",
@@ -414,6 +456,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\instaHomePage.png"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\js\\jquery-3.7.1.min.js",
+      "SourceId": "UserServiceRR",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\",
+      "BasePath": "_content/UserServiceRR",
+      "RelativePath": "js/jquery-3.7.1.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "59duowzy1j",
+      "Integrity": "meaR+uXojrNrr7JHWLNfD5kHCClfjyq+IiGJHjKPd2o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jquery-3.7.1.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\js\\logInValidation.js",
+      "SourceId": "UserServiceRR",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\",
+      "BasePath": "_content/UserServiceRR",
+      "RelativePath": "js/logInValidation#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vli6dbn289",
+      "Integrity": "s8wZNVfWPdZu6lvir/Z0xvv6Um+hv18OPCbLOQSkVf8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\logInValidation.js"
     },
     {
       "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\js\\site.js",
@@ -1632,215 +1716,9 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\signIn.html",
-      "SourceId": "UserServiceRR",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\",
-      "BasePath": "_content/UserServiceRR",
-      "RelativePath": "signIn#[.{fingerprint}]?.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "74l7ioznra",
-      "Integrity": "pwisz5Mz6lcRevt4qIrxCleVRz908GAVnnHtGubo6So=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\signIn.html"
-    },
-    {
-      "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\signUp.html",
-      "SourceId": "UserServiceRR",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\",
-      "BasePath": "_content/UserServiceRR",
-      "RelativePath": "signUp#[.{fingerprint}]?.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "oatit45uci",
-      "Integrity": "0AEqB1KAlwxToD93/tm3XSUQEVF92Ou0jJQS1/tidBA=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\signUp.html"
     }
   ],
   "Endpoints": [
-    {
-      "Route": "Baby.ey8ai53sb3.html",
-      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Baby.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "299"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Kv6S+Kkoi4j9w2ejqOObQnJahczXnFihgoBGtrBZO/E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 16 Jul 2025 20:04:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ey8ai53sb3"
-        },
-        {
-          "Name": "label",
-          "Value": "Baby.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Kv6S+Kkoi4j9w2ejqOObQnJahczXnFihgoBGtrBZO/E="
-        }
-      ]
-    },
-    {
-      "Route": "Baby.html",
-      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Baby.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "299"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Kv6S+Kkoi4j9w2ejqOObQnJahczXnFihgoBGtrBZO/E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 16 Jul 2025 20:04:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Kv6S+Kkoi4j9w2ejqOObQnJahczXnFihgoBGtrBZO/E="
-        }
-      ]
-    },
-    {
-      "Route": "Clothing.fqyrnik1i6.html",
-      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Clothing.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "300"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"l2cGHiEoI6pfqeXy47bYkAkK1m/blLXpSNg1zr28bxU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 16 Jul 2025 20:04:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "fqyrnik1i6"
-        },
-        {
-          "Name": "label",
-          "Value": "Clothing.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-l2cGHiEoI6pfqeXy47bYkAkK1m/blLXpSNg1zr28bxU="
-        }
-      ]
-    },
-    {
-      "Route": "Clothing.html",
-      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Clothing.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "300"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"l2cGHiEoI6pfqeXy47bYkAkK1m/blLXpSNg1zr28bxU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 16 Jul 2025 20:04:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-l2cGHiEoI6pfqeXy47bYkAkK1m/blLXpSNg1zr28bxU="
-        }
-      ]
-    },
     {
       "Route": "css/site.c2tiyv64ts.css",
       "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\css\\site.css",
@@ -2006,88 +1884,6 @@
       ]
     },
     {
-      "Route": "Electronics.g2og5a9th3.html",
-      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Electronics.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "327"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KMVn41Yve+yfwW4qs7QnISyUryd/ZRfUbE5UWMqaLvQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 16 Jul 2025 20:04:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "g2og5a9th3"
-        },
-        {
-          "Name": "label",
-          "Value": "Electronics.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-KMVn41Yve+yfwW4qs7QnISyUryd/ZRfUbE5UWMqaLvQ="
-        }
-      ]
-    },
-    {
-      "Route": "Electronics.html",
-      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Electronics.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "327"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KMVn41Yve+yfwW4qs7QnISyUryd/ZRfUbE5UWMqaLvQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 16 Jul 2025 20:04:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-KMVn41Yve+yfwW4qs7QnISyUryd/ZRfUbE5UWMqaLvQ="
-        }
-      ]
-    },
-    {
       "Route": "favicon.61n19gt1b8.ico",
       "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\favicon.ico",
       "Selectors": [],
@@ -2170,8 +1966,8 @@
       ]
     },
     {
-      "Route": "Furniture.3weeb64azx.html",
-      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Furniture.html",
+      "Route": "html/Baby.0rjocs13oa.html",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\Baby.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2180,7 +1976,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "368"
+          "Value": "300"
         },
         {
           "Name": "Content-Type",
@@ -2188,11 +1984,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HTp6HJ7N0WvkfSoU2d3neOodT1sznQviyBY+fN8syd8=\""
+          "Value": "\"BDq3gAac8Lmp9oCS/kB+gaR9zIGveDxuKy63Ij5msSQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Jul 2025 20:04:27 GMT"
+          "Value": "Wed, 16 Jul 2025 21:05:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2202,21 +1998,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3weeb64azx"
+          "Value": "0rjocs13oa"
         },
         {
           "Name": "label",
-          "Value": "Furniture.html"
+          "Value": "html/Baby.html"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-HTp6HJ7N0WvkfSoU2d3neOodT1sznQviyBY+fN8syd8="
+          "Value": "sha256-BDq3gAac8Lmp9oCS/kB+gaR9zIGveDxuKy63Ij5msSQ="
         }
       ]
     },
     {
-      "Route": "Furniture.html",
-      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Furniture.html",
+      "Route": "html/Baby.html",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\Baby.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2225,7 +2021,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "368"
+          "Value": "300"
         },
         {
           "Name": "Content-Type",
@@ -2233,11 +2029,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HTp6HJ7N0WvkfSoU2d3neOodT1sznQviyBY+fN8syd8=\""
+          "Value": "\"BDq3gAac8Lmp9oCS/kB+gaR9zIGveDxuKy63Ij5msSQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Jul 2025 20:04:27 GMT"
+          "Value": "Wed, 16 Jul 2025 21:05:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2247,13 +2043,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-HTp6HJ7N0WvkfSoU2d3neOodT1sznQviyBY+fN8syd8="
+          "Value": "sha256-BDq3gAac8Lmp9oCS/kB+gaR9zIGveDxuKy63Ij5msSQ="
         }
       ]
     },
     {
-      "Route": "Grocery.html",
-      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Grocery.html",
+      "Route": "html/Clothing.html",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\Clothing.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2262,7 +2058,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "398"
+          "Value": "301"
         },
         {
           "Name": "Content-Type",
@@ -2270,11 +2066,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fT4f7tgl+8UrnhBUzAlzw+wGkIJQsRIxpRRBycsJaqY=\""
+          "Value": "\"EVGcd+BCTAwhenhs94ge278e4NaU0mmXTFJeasm8mTI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Jul 2025 20:03:03 GMT"
+          "Value": "Wed, 16 Jul 2025 21:05:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2284,13 +2080,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fT4f7tgl+8UrnhBUzAlzw+wGkIJQsRIxpRRBycsJaqY="
+          "Value": "sha256-EVGcd+BCTAwhenhs94ge278e4NaU0mmXTFJeasm8mTI="
         }
       ]
     },
     {
-      "Route": "Grocery.xrtf26mmco.html",
-      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Grocery.html",
+      "Route": "html/Clothing.pe0kehqbe8.html",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\Clothing.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2299,7 +2095,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "398"
+          "Value": "301"
         },
         {
           "Name": "Content-Type",
@@ -2307,11 +2103,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fT4f7tgl+8UrnhBUzAlzw+wGkIJQsRIxpRRBycsJaqY=\""
+          "Value": "\"EVGcd+BCTAwhenhs94ge278e4NaU0mmXTFJeasm8mTI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Jul 2025 20:03:03 GMT"
+          "Value": "Wed, 16 Jul 2025 21:05:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2321,21 +2117,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xrtf26mmco"
+          "Value": "pe0kehqbe8"
         },
         {
           "Name": "label",
-          "Value": "Grocery.html"
+          "Value": "html/Clothing.html"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-fT4f7tgl+8UrnhBUzAlzw+wGkIJQsRIxpRRBycsJaqY="
+          "Value": "sha256-EVGcd+BCTAwhenhs94ge278e4NaU0mmXTFJeasm8mTI="
         }
       ]
     },
     {
-      "Route": "Home.dlwkh0ovwm.html",
-      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Home.html",
+      "Route": "html/Electronics.al6uv08z4l.html",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\Electronics.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2344,7 +2140,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "346"
+          "Value": "328"
         },
         {
           "Name": "Content-Type",
@@ -2352,11 +2148,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/yxCXCaKHg+036YTjdGzxRajhIgB8RN0m+JKAnwKL28=\""
+          "Value": "\"IsT8EIx3+unpONyd+XowtK0X7Q1QdbqIvLDAM0MTQeY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Jul 2025 20:04:27 GMT"
+          "Value": "Wed, 16 Jul 2025 21:05:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2366,21 +2162,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dlwkh0ovwm"
+          "Value": "al6uv08z4l"
         },
         {
           "Name": "label",
-          "Value": "Home.html"
+          "Value": "html/Electronics.html"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-/yxCXCaKHg+036YTjdGzxRajhIgB8RN0m+JKAnwKL28="
+          "Value": "sha256-IsT8EIx3+unpONyd+XowtK0X7Q1QdbqIvLDAM0MTQeY="
         }
       ]
     },
     {
-      "Route": "Home.html",
-      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Home.html",
+      "Route": "html/Electronics.html",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\Electronics.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2389,7 +2185,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "346"
+          "Value": "328"
         },
         {
           "Name": "Content-Type",
@@ -2397,11 +2193,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/yxCXCaKHg+036YTjdGzxRajhIgB8RN0m+JKAnwKL28=\""
+          "Value": "\"IsT8EIx3+unpONyd+XowtK0X7Q1QdbqIvLDAM0MTQeY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Jul 2025 20:04:27 GMT"
+          "Value": "Wed, 16 Jul 2025 21:05:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2411,13 +2207,259 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/yxCXCaKHg+036YTjdGzxRajhIgB8RN0m+JKAnwKL28="
+          "Value": "sha256-IsT8EIx3+unpONyd+XowtK0X7Q1QdbqIvLDAM0MTQeY="
         }
       ]
     },
     {
-      "Route": "homePage.az9olff1rv.html",
-      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\homePage.html",
+      "Route": "html/Furniture.html",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\Furniture.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "369"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q82K+mO+SOP44z5yll62udiAk/mdBq5YfRyW+F46QsE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Jul 2025 21:05:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-q82K+mO+SOP44z5yll62udiAk/mdBq5YfRyW+F46QsE="
+        }
+      ]
+    },
+    {
+      "Route": "html/Furniture.lkr7nx9ibo.html",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\Furniture.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "369"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q82K+mO+SOP44z5yll62udiAk/mdBq5YfRyW+F46QsE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Jul 2025 21:05:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lkr7nx9ibo"
+        },
+        {
+          "Name": "label",
+          "Value": "html/Furniture.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-q82K+mO+SOP44z5yll62udiAk/mdBq5YfRyW+F46QsE="
+        }
+      ]
+    },
+    {
+      "Route": "html/Grocery.7tibm2nh0j.html",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\Grocery.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "399"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+wFq00Bfqac+V41SQ0cECGr8f3MJwNOCATN4kyiXn6o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Jul 2025 21:05:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7tibm2nh0j"
+        },
+        {
+          "Name": "label",
+          "Value": "html/Grocery.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+wFq00Bfqac+V41SQ0cECGr8f3MJwNOCATN4kyiXn6o="
+        }
+      ]
+    },
+    {
+      "Route": "html/Grocery.html",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\Grocery.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "399"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+wFq00Bfqac+V41SQ0cECGr8f3MJwNOCATN4kyiXn6o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Jul 2025 21:05:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+wFq00Bfqac+V41SQ0cECGr8f3MJwNOCATN4kyiXn6o="
+        }
+      ]
+    },
+    {
+      "Route": "html/Home.8rikmo19sy.html",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\Home.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "347"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9CF1oaEgVMs1c28LF3eVQCyqCIN1gnPQulRIFsrYcFc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Jul 2025 21:05:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8rikmo19sy"
+        },
+        {
+          "Name": "label",
+          "Value": "html/Home.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9CF1oaEgVMs1c28LF3eVQCyqCIN1gnPQulRIFsrYcFc="
+        }
+      ]
+    },
+    {
+      "Route": "html/Home.html",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\Home.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "347"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9CF1oaEgVMs1c28LF3eVQCyqCIN1gnPQulRIFsrYcFc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Jul 2025 21:05:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9CF1oaEgVMs1c28LF3eVQCyqCIN1gnPQulRIFsrYcFc="
+        }
+      ]
+    },
+    {
+      "Route": "html/homePage.az9olff1rv.html",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\homePage.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2452,7 +2494,7 @@
         },
         {
           "Name": "label",
-          "Value": "homePage.html"
+          "Value": "html/homePage.html"
         },
         {
           "Name": "integrity",
@@ -2461,8 +2503,8 @@
       ]
     },
     {
-      "Route": "homePage.html",
-      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\homePage.html",
+      "Route": "html/homePage.html",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\homePage.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2494,6 +2536,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-erY9WF1e/xHYPkP/6gyp0AYMjAhftLmXx/ntmhKHOrI="
+        }
+      ]
+    },
+    {
+      "Route": "html/signIn.html",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\signIn.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1471"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vn/M453Cb3NEd4F5BAbPZugB5tXGe4Map7LBHHmhGsI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Jul 2025 20:50:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vn/M453Cb3NEd4F5BAbPZugB5tXGe4Map7LBHHmhGsI="
+        }
+      ]
+    },
+    {
+      "Route": "html/signIn.myuwjyum3l.html",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\signIn.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1471"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vn/M453Cb3NEd4F5BAbPZugB5tXGe4Map7LBHHmhGsI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Jul 2025 20:50:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "myuwjyum3l"
+        },
+        {
+          "Name": "label",
+          "Value": "html/signIn.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vn/M453Cb3NEd4F5BAbPZugB5tXGe4Map7LBHHmhGsI="
+        }
+      ]
+    },
+    {
+      "Route": "html/signUp.html",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\signUp.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0AEqB1KAlwxToD93/tm3XSUQEVF92Ou0jJQS1/tidBA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 04:07:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0AEqB1KAlwxToD93/tm3XSUQEVF92Ou0jJQS1/tidBA="
+        }
+      ]
+    },
+    {
+      "Route": "html/signUp.oatit45uci.html",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\signUp.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0AEqB1KAlwxToD93/tm3XSUQEVF92Ou0jJQS1/tidBA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 04:07:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oatit45uci"
+        },
+        {
+          "Name": "label",
+          "Value": "html/signUp.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0AEqB1KAlwxToD93/tm3XSUQEVF92Ou0jJQS1/tidBA="
         }
       ]
     },
@@ -3068,6 +3274,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-oQPQ3YMxWkCkiKk9tsJLrxTJzERvx0loIKv9vUoTMMQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery-3.7.1.min.59duowzy1j.js",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\js\\jquery-3.7.1.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"meaR+uXojrNrr7JHWLNfD5kHCClfjyq+IiGJHjKPd2o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 02:08:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "59duowzy1j"
+        },
+        {
+          "Name": "label",
+          "Value": "js/jquery-3.7.1.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-meaR+uXojrNrr7JHWLNfD5kHCClfjyq+IiGJHjKPd2o="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery-3.7.1.min.js",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\js\\jquery-3.7.1.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"meaR+uXojrNrr7JHWLNfD5kHCClfjyq+IiGJHjKPd2o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 02:08:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-meaR+uXojrNrr7JHWLNfD5kHCClfjyq+IiGJHjKPd2o="
+        }
+      ]
+    },
+    {
+      "Route": "js/logInValidation.js",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\js\\logInValidation.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2113"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s8wZNVfWPdZu6lvir/Z0xvv6Um+hv18OPCbLOQSkVf8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 00:28:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s8wZNVfWPdZu6lvir/Z0xvv6Um+hv18OPCbLOQSkVf8="
+        }
+      ]
+    },
+    {
+      "Route": "js/logInValidation.vli6dbn289.js",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\js\\logInValidation.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2113"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s8wZNVfWPdZu6lvir/Z0xvv6Um+hv18OPCbLOQSkVf8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 00:28:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vli6dbn289"
+        },
+        {
+          "Name": "label",
+          "Value": "js/logInValidation.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s8wZNVfWPdZu6lvir/Z0xvv6Um+hv18OPCbLOQSkVf8="
         }
       ]
     },
@@ -7824,170 +8194,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
-        }
-      ]
-    },
-    {
-      "Route": "signIn.74l7ioznra.html",
-      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\signIn.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1465"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pwisz5Mz6lcRevt4qIrxCleVRz908GAVnnHtGubo6So=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 16 Jul 2025 20:29:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "74l7ioznra"
-        },
-        {
-          "Name": "label",
-          "Value": "signIn.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-pwisz5Mz6lcRevt4qIrxCleVRz908GAVnnHtGubo6So="
-        }
-      ]
-    },
-    {
-      "Route": "signIn.html",
-      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\signIn.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1465"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pwisz5Mz6lcRevt4qIrxCleVRz908GAVnnHtGubo6So=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 16 Jul 2025 20:29:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-pwisz5Mz6lcRevt4qIrxCleVRz908GAVnnHtGubo6So="
-        }
-      ]
-    },
-    {
-      "Route": "signUp.html",
-      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\signUp.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "38"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0AEqB1KAlwxToD93/tm3XSUQEVF92Ou0jJQS1/tidBA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 04:07:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-0AEqB1KAlwxToD93/tm3XSUQEVF92Ou0jJQS1/tidBA="
-        }
-      ]
-    },
-    {
-      "Route": "signUp.oatit45uci.html",
-      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\signUp.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "38"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0AEqB1KAlwxToD93/tm3XSUQEVF92Ou0jJQS1/tidBA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 04:07:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "oatit45uci"
-        },
-        {
-          "Name": "label",
-          "Value": "signUp.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-0AEqB1KAlwxToD93/tm3XSUQEVF92Ou0jJQS1/tidBA="
         }
       ]
     },

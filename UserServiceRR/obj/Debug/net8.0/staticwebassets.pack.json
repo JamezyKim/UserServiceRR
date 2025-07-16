@@ -5,30 +5,6 @@
       "PackagePath": "staticwebassets\\UserServiceRR.0x5f60l45k.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Baby.html",
-      "PackagePath": "staticwebassets\\Baby.html"
-    },
-    {
-      "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Clothing.html",
-      "PackagePath": "staticwebassets\\Clothing.html"
-    },
-    {
-      "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Electronics.html",
-      "PackagePath": "staticwebassets\\Electronics.html"
-    },
-    {
-      "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Furniture.html",
-      "PackagePath": "staticwebassets\\Furniture.html"
-    },
-    {
-      "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Grocery.html",
-      "PackagePath": "staticwebassets\\Grocery.html"
-    },
-    {
-      "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Home.html",
-      "PackagePath": "staticwebassets\\Home.html"
-    },
-    {
       "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Images\\Baby.webp",
       "PackagePath": "staticwebassets\\Images\\Baby.webp"
     },
@@ -69,8 +45,48 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\homePage.html",
-      "PackagePath": "staticwebassets\\homePage.html"
+      "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\Baby.html",
+      "PackagePath": "staticwebassets\\html\\Baby.html"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\Clothing.html",
+      "PackagePath": "staticwebassets\\html\\Clothing.html"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\Electronics.html",
+      "PackagePath": "staticwebassets\\html\\Electronics.html"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\Furniture.html",
+      "PackagePath": "staticwebassets\\html\\Furniture.html"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\Grocery.html",
+      "PackagePath": "staticwebassets\\html\\Grocery.html"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\Home.html",
+      "PackagePath": "staticwebassets\\html\\Home.html"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\homePage.html",
+      "PackagePath": "staticwebassets\\html\\homePage.html"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\signIn.html",
+      "PackagePath": "staticwebassets\\html\\signIn.html"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\signUp.html",
+      "PackagePath": "staticwebassets\\html\\signUp.html"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\js\\jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\js\\logInValidation.js",
+      "PackagePath": "staticwebassets\\js\\logInValidation.js"
     },
     {
       "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\js\\site.js",
@@ -303,14 +319,6 @@
     {
       "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\signIn.html",
-      "PackagePath": "staticwebassets\\signIn.html"
-    },
-    {
-      "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\signUp.html",
-      "PackagePath": "staticwebassets\\signUp.html"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.UserServiceRR.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

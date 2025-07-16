@@ -1,13 +1,15 @@
-wwwroot\Baby.html
-wwwroot\Clothing.html
 wwwroot\css\site.css
 wwwroot\css\styles.css
-wwwroot\Electronics.html
 wwwroot\favicon.ico
-wwwroot\Furniture.html
-wwwroot\Grocery.html
-wwwroot\Home.html
-wwwroot\homePage.html
+wwwroot\html\Baby.html
+wwwroot\html\Clothing.html
+wwwroot\html\Electronics.html
+wwwroot\html\Furniture.html
+wwwroot\html\Grocery.html
+wwwroot\html\Home.html
+wwwroot\html\homePage.html
+wwwroot\html\signIn.html
+wwwroot\html\signUp.html
 wwwroot\Images\Baby.webp
 wwwroot\Images\Clothing.avif
 wwwroot\Images\Electronics.jpg
@@ -15,6 +17,8 @@ wwwroot\Images\Furniture.jpg
 wwwroot\Images\grocery.jpg
 wwwroot\Images\Home.jpg
 wwwroot\Images\instaHomePage.png
+wwwroot\js\jquery-3.7.1.min.js
+wwwroot\js\logInValidation.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
@@ -73,5 +77,3 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-wwwroot\signIn.html
-wwwroot\signUp.html
