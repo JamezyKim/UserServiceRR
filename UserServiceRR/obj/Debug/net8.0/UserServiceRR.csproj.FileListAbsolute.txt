@@ -32,3 +32,4 @@ C:\Users\PC\source\repos\UserServiceRR\UserServiceRR\obj\Debug\net8.0\refint\Use
 C:\Users\PC\source\repos\UserServiceRR\UserServiceRR\obj\Debug\net8.0\UserServiceRR.pdb
 C:\Users\PC\source\repos\UserServiceRR\UserServiceRR\obj\Debug\net8.0\UserServiceRR.genruntimeconfig.cache
 C:\Users\PC\source\repos\UserServiceRR\UserServiceRR\obj\Debug\net8.0\ref\UserServiceRR.dll
+C:\Users\PC\source\repos\UserServiceRR\UserServiceRR\obj\Debug\net8.0\UserServiceRR.sourcelink.json
