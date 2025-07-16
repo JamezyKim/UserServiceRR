@@ -1,0 +1,109 @@
+﻿p {
+    color: red;
+}
+
+.signInLabel {
+    font-size: 18px;
+}
+
+.signInForm {
+    margin-left: 30px;
+}
+
+
+.inputLabel {
+    width: 90%;
+    padding: 8px;
+}
+
+.bodySet {
+    font-family: sans-serif;
+    background-color: #C8E7F3;
+    height: 95vh;
+}
+
+#JamHompage {
+    background-color: #00BFA6;
+    padding: 15px;
+}
+
+#signInLink {
+    margin-left: 1800px;
+    padding-top: 5px;
+    font-size: 20px
+}
+
+#marketSectionLink {
+    display: flex;
+    justify-content: center;
+}
+
+#marketSectionsTable {
+    width: 200px;
+    height: 300px;
+}
+
+#welcomeText {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#mainContent {
+    display: flex;
+    align-items: flex-start;
+    gap: 1px;
+}
+
+#signInTextBox {
+    padding-top: 5px;
+    font-size: 35px
+}
+
+
+.linkBox {
+    font-size: 17px;
+    padding: 8px 15px;
+    display: inline-block;
+    background-color: #0066ff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.textDecoration {
+    text-decoration: none;
+}
+
+#createAccountLink {
+    margin-left: 180px;
+    padding-top: 5px;
+}
+
+#homePageLink {
+    margin-left: 0px;
+    padding-top: 5px;
+    font-size: 1.5rem;
+}
+
+#emailLabel {
+    margin-top: 30px;
+}
+
+#blackRoundBox {
+    background: #fff;
+    width: 500px;
+    height: 800px;
+    border: 8px solid black;
+    margin-left: 650px;
+    border-radius: 40px;
+}
+
+#submitButton {
+    width: 94%;
+    height: 50px;
+}
