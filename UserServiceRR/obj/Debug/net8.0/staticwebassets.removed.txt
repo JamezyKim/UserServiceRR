@@ -1,9 +1,1 @@
-C:\Users\PC\source\repos\UserServiceRR\UserServiceRR\wwwroot\Baby.html
-C:\Users\PC\source\repos\UserServiceRR\UserServiceRR\wwwroot\Clothing.html
-C:\Users\PC\source\repos\UserServiceRR\UserServiceRR\wwwroot\Electronics.html
-C:\Users\PC\source\repos\UserServiceRR\UserServiceRR\wwwroot\Furniture.html
-C:\Users\PC\source\repos\UserServiceRR\UserServiceRR\wwwroot\Grocery.html
-C:\Users\PC\source\repos\UserServiceRR\UserServiceRR\wwwroot\Home.html
-C:\Users\PC\source\repos\UserServiceRR\UserServiceRR\wwwroot\homePage.html
-C:\Users\PC\source\repos\UserServiceRR\UserServiceRR\wwwroot\signIn.html
-C:\Users\PC\source\repos\UserServiceRR\UserServiceRR\wwwroot\signUp.html
+C:\Users\PC\source\repos\UserServiceRR\UserServiceRR\wwwroot\Images\Clothing.avif

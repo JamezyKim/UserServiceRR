@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>pe0kehqbe8</Fingerprint>
-      <Integrity>EVGcd+BCTAwhenhs94ge278e4NaU0mmXTFJeasm8mTI=</Integrity>
+      <Fingerprint>blvnassijz</Fingerprint>
+      <Integrity>r3lw9lHdeuJOhc8JUBdLzekgVpGclcJ0wQSwU8cW0u8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\Clothing.html'))</OriginalItemSpec>
@@ -234,23 +234,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Baby.webp'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Clothing.avif'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\clothing.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>UserServiceRR</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/UserServiceRR</BasePath>
-      <RelativePath>Images/Clothing.avif</RelativePath>
+      <RelativePath>Images/clothing.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qjwc1e63yb</Fingerprint>
-      <Integrity>OhdVvgL2QKTTdZRDcwJDQqwEXZtdNoK60nMGJsQlao8=</Integrity>
+      <Fingerprint>qy7szjsy21</Fingerprint>
+      <Integrity>rnlAk7ePB9DFiqM7pNpRIOGjQf3VWjFliiIcxyOEqwo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Clothing.avif'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\clothing.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Electronics.jpg'))">
       <SourceType>Package</SourceType>

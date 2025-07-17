@@ -9,10 +9,6 @@
       "PackagePath": "staticwebassets\\Images\\Baby.webp"
     },
     {
-      "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Images\\Clothing.avif",
-      "PackagePath": "staticwebassets\\Images\\Clothing.avif"
-    },
-    {
       "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Images\\Electronics.jpg",
       "PackagePath": "staticwebassets\\Images\\Electronics.jpg"
     },
@@ -23,6 +19,10 @@
     {
       "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Images\\Home.jpg",
       "PackagePath": "staticwebassets\\Images\\Home.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Images\\clothing.jpg",
+      "PackagePath": "staticwebassets\\Images\\clothing.jpg"
     },
     {
       "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Images\\grocery.jpg",

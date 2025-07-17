@@ -11,7 +11,7 @@ wwwroot\html\homePage.html
 wwwroot\html\signIn.html
 wwwroot\html\signUp.html
 wwwroot\Images\Baby.webp
-wwwroot\Images\Clothing.avif
+wwwroot\Images\clothing.jpg
 wwwroot\Images\Electronics.jpg
 wwwroot\Images\Furniture.jpg
 wwwroot\Images\grocery.jpg

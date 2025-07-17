@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zHPe94W1kdttd7Igr5vTYC1O2z86PyJKja53kpG707M=",
+  "Hash": "gPZg5eoE8AwDameoTOWvq6vEV+WbmdkqkRpeVuYpWuM=",
   "Source": "UserServiceRR",
   "BasePath": "_content/UserServiceRR",
   "Mode": "Default",
@@ -157,8 +157,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "pe0kehqbe8",
-      "Integrity": "EVGcd+BCTAwhenhs94ge278e4NaU0mmXTFJeasm8mTI=",
+      "Fingerprint": "blvnassijz",
+      "Integrity": "r3lw9lHdeuJOhc8JUBdLzekgVpGclcJ0wQSwU8cW0u8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\html\\Clothing.html"
@@ -332,12 +332,12 @@
       "OriginalItemSpec": "wwwroot\\Images\\Baby.webp"
     },
     {
-      "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Images\\Clothing.avif",
+      "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Images\\clothing.jpg",
       "SourceId": "UserServiceRR",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\",
       "BasePath": "_content/UserServiceRR",
-      "RelativePath": "Images/Clothing#[.{fingerprint}]?.avif",
+      "RelativePath": "Images/clothing#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -346,11 +346,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "qjwc1e63yb",
-      "Integrity": "OhdVvgL2QKTTdZRDcwJDQqwEXZtdNoK60nMGJsQlao8=",
+      "Fingerprint": "qy7szjsy21",
+      "Integrity": "rnlAk7ePB9DFiqM7pNpRIOGjQf3VWjFliiIcxyOEqwo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Clothing.avif"
+      "OriginalItemSpec": "wwwroot\\Images\\clothing.jpg"
     },
     {
       "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Images\\Electronics.jpg",
@@ -2048,6 +2048,51 @@
       ]
     },
     {
+      "Route": "html/Clothing.blvnassijz.html",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\Clothing.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "404"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r3lw9lHdeuJOhc8JUBdLzekgVpGclcJ0wQSwU8cW0u8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Jul 2025 01:09:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "blvnassijz"
+        },
+        {
+          "Name": "label",
+          "Value": "html/Clothing.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r3lw9lHdeuJOhc8JUBdLzekgVpGclcJ0wQSwU8cW0u8="
+        }
+      ]
+    },
+    {
       "Route": "html/Clothing.html",
       "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\Clothing.html",
       "Selectors": [],
@@ -2058,7 +2103,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "301"
+          "Value": "404"
         },
         {
           "Name": "Content-Type",
@@ -2066,11 +2111,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EVGcd+BCTAwhenhs94ge278e4NaU0mmXTFJeasm8mTI=\""
+          "Value": "\"r3lw9lHdeuJOhc8JUBdLzekgVpGclcJ0wQSwU8cW0u8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Jul 2025 21:05:29 GMT"
+          "Value": "Thu, 17 Jul 2025 01:09:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2080,52 +2125,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-EVGcd+BCTAwhenhs94ge278e4NaU0mmXTFJeasm8mTI="
-        }
-      ]
-    },
-    {
-      "Route": "html/Clothing.pe0kehqbe8.html",
-      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\Clothing.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "301"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"EVGcd+BCTAwhenhs94ge278e4NaU0mmXTFJeasm8mTI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 16 Jul 2025 21:05:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pe0kehqbe8"
-        },
-        {
-          "Name": "label",
-          "Value": "html/Clothing.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-EVGcd+BCTAwhenhs94ge278e4NaU0mmXTFJeasm8mTI="
+          "Value": "sha256-r3lw9lHdeuJOhc8JUBdLzekgVpGclcJ0wQSwU8cW0u8="
         }
       ]
     },
@@ -2786,8 +2786,8 @@
       ]
     },
     {
-      "Route": "Images/Clothing.avif",
-      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Images\\Clothing.avif",
+      "Route": "Images/clothing.jpg",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Images\\clothing.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2796,35 +2796,35 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "27004"
+          "Value": "1679356"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/octet-stream"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"OhdVvgL2QKTTdZRDcwJDQqwEXZtdNoK60nMGJsQlao8=\""
+          "Value": "\"rnlAk7ePB9DFiqM7pNpRIOGjQf3VWjFliiIcxyOEqwo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 21:03:37 GMT"
+          "Value": "Thu, 17 Jul 2025 01:01:28 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OhdVvgL2QKTTdZRDcwJDQqwEXZtdNoK60nMGJsQlao8="
+          "Value": "sha256-rnlAk7ePB9DFiqM7pNpRIOGjQf3VWjFliiIcxyOEqwo="
         }
       ]
     },
     {
-      "Route": "Images/Clothing.qjwc1e63yb.avif",
-      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Images\\Clothing.avif",
+      "Route": "Images/clothing.qy7szjsy21.jpg",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Images\\clothing.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2833,19 +2833,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "27004"
+          "Value": "1679356"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/octet-stream"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"OhdVvgL2QKTTdZRDcwJDQqwEXZtdNoK60nMGJsQlao8=\""
+          "Value": "\"rnlAk7ePB9DFiqM7pNpRIOGjQf3VWjFliiIcxyOEqwo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 21:03:37 GMT"
+          "Value": "Thu, 17 Jul 2025 01:01:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2855,15 +2855,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qjwc1e63yb"
+          "Value": "qy7szjsy21"
         },
         {
           "Name": "label",
-          "Value": "Images/Clothing.avif"
+          "Value": "Images/clothing.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-OhdVvgL2QKTTdZRDcwJDQqwEXZtdNoK60nMGJsQlao8="
+          "Value": "sha256-rnlAk7ePB9DFiqM7pNpRIOGjQf3VWjFliiIcxyOEqwo="
         }
       ]
     },
@@ -8220,7 +8220,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Jul 2025 20:00:25 GMT"
+          "Value": "Thu, 17 Jul 2025 01:02:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8265,7 +8265,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Jul 2025 20:00:25 GMT"
+          "Value": "Thu, 17 Jul 2025 01:02:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8310,7 +8310,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Jul 2025 20:00:25 GMT"
+          "Value": "Thu, 17 Jul 2025 01:02:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8347,7 +8347,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Jul 2025 20:00:25 GMT"
+          "Value": "Thu, 17 Jul 2025 01:02:32 GMT"
         },
         {
           "Name": "Cache-Control",
