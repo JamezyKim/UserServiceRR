@@ -1,9 +1,11 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace UserServiceRR.Models
 {
     public class ProductClass
     {
+        [Key]
         public Guid ProductId { get; set; }
         public DateTime CreatedDate { get; set; }
         public string ProductName { get; set; } = null!;
