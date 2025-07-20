@@ -1,5 +1,6 @@
 var email;
 var password;
+var logInUrl;
 
 const dataBase = [
     { email: 'yt4921@gmail.com', password: 'abc' },
@@ -8,32 +9,12 @@ const dataBase = [
 ]
 
 
-function getUserInfo(event) {
-    event.preventDefault();
+function getUserInfo() {
     email = document.getElementById("email").value;
     password = document.getElementById("password").value;
-    console.log(email);
-    console.log(password);
-
-    var user = dataBase.find(u => u.email === email);
-
-    if (!user) {
-        console.error("User info is not found");
-        alert("User info is not found");
-    }
-
-    else if (user.password !== password) {
-        console.error("Wrong password");
-        alert("Wrong password");
-    }
-    else {
-        console.log("Log in success");
-        $("#blackRoundBox").hide();
-        $("#alternativeTextBox").text("Log in success");
-    }
+    logInUrl = "https://localhost:7245/Home/LogIn?email='" + email+ "'&password='" + password + "'";
+    window.location.replace(logInUrl);
 }
-
-
 
 const encryptMap = {};
 const decryptMap = {};
@@ -72,5 +53,6 @@ function decrypt() {
     document.getElementById("password").value = decryptText;
     console.log("Decrypted text:", decryptText);
 }
+
 
 biMap();

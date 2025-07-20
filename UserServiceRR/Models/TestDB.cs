@@ -4,16 +4,11 @@ namespace UserServiceRR.Models
 {
     namespace UserServiceRR.Models
     {
-        public class TestDB : DbContext
+        public class TestDB(DbContextOptions<TestDB> options) : DbContext(options)
         {
-            public TestDB(DbContextOptions<TestDB> options)
-                : base(options)
-            {
-            }
-
-            public DbSet<UserClass> Users { get; set; }
-            public DbSet<ProductClass> Products { get; set; }
-            public DbSet<TransactionClass> Transactions { get; set; }
+            public DbSet<User> Users { get; set; }
+            public DbSet<Product> Products { get; set; }
+            public DbSet<Transaction> Transactions { get; set; }
         }
     }
 }

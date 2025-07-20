@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wOEgCwN1VVRSmb4DFufjtdNAZd3lazbKAgOtV7Yt3MI=",
+  "Hash": "DawtdarvnBv9l5BZ3q3JywS9bsIuRbQO5AYiPXiN11Y=",
   "Source": "UserServiceRR",
   "BasePath": "_content/UserServiceRR",
   "Mode": "Default",
@@ -283,8 +283,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "rm9zmeg26x",
-      "Integrity": "g2mp+req6JsVA5uRScwi0RWAMIYtQQQg6sqHD2gqUU4=",
+      "Fingerprint": "l7nec10v4q",
+      "Integrity": "AV3ewZhPFTRd4v7h5q77sGO032TR4aiIELM1z/8/ChE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\html\\signIn.html"
@@ -493,8 +493,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "vli6dbn289",
-      "Integrity": "s8wZNVfWPdZu6lvir/Z0xvv6Um+hv18OPCbLOQSkVf8=",
+      "Fingerprint": "c1wt1oplcn",
+      "Integrity": "cBh6o1x8ry9KQFgcqkTDxd8W3hlMteIzTo+40IUygS4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\logInValidation.js"
@@ -2550,7 +2550,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1472"
+          "Value": "1449"
         },
         {
           "Name": "Content-Type",
@@ -2558,11 +2558,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"g2mp+req6JsVA5uRScwi0RWAMIYtQQQg6sqHD2gqUU4=\""
+          "Value": "\"AV3ewZhPFTRd4v7h5q77sGO032TR4aiIELM1z/8/ChE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 17 Jul 2025 03:32:18 GMT"
+          "Value": "Sat, 19 Jul 2025 02:57:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2572,12 +2572,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-g2mp+req6JsVA5uRScwi0RWAMIYtQQQg6sqHD2gqUU4="
+          "Value": "sha256-AV3ewZhPFTRd4v7h5q77sGO032TR4aiIELM1z/8/ChE="
         }
       ]
     },
     {
-      "Route": "html/signIn.rm9zmeg26x.html",
+      "Route": "html/signIn.l7nec10v4q.html",
       "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\signIn.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2587,7 +2587,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1472"
+          "Value": "1449"
         },
         {
           "Name": "Content-Type",
@@ -2595,11 +2595,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"g2mp+req6JsVA5uRScwi0RWAMIYtQQQg6sqHD2gqUU4=\""
+          "Value": "\"AV3ewZhPFTRd4v7h5q77sGO032TR4aiIELM1z/8/ChE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 17 Jul 2025 03:32:18 GMT"
+          "Value": "Sat, 19 Jul 2025 02:57:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2609,7 +2609,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rm9zmeg26x"
+          "Value": "l7nec10v4q"
         },
         {
           "Name": "label",
@@ -2617,7 +2617,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-g2mp+req6JsVA5uRScwi0RWAMIYtQQQg6sqHD2gqUU4="
+          "Value": "sha256-AV3ewZhPFTRd4v7h5q77sGO032TR4aiIELM1z/8/ChE="
         }
       ]
     },
@@ -3360,6 +3360,51 @@
       ]
     },
     {
+      "Route": "js/logInValidation.c1wt1oplcn.js",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\js\\logInValidation.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cBh6o1x8ry9KQFgcqkTDxd8W3hlMteIzTo+40IUygS4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 03:11:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c1wt1oplcn"
+        },
+        {
+          "Name": "label",
+          "Value": "js/logInValidation.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cBh6o1x8ry9KQFgcqkTDxd8W3hlMteIzTo+40IUygS4="
+        }
+      ]
+    },
+    {
       "Route": "js/logInValidation.js",
       "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\js\\logInValidation.js",
       "Selectors": [],
@@ -3370,7 +3415,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2113"
+          "Value": "1722"
         },
         {
           "Name": "Content-Type",
@@ -3378,11 +3423,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"s8wZNVfWPdZu6lvir/Z0xvv6Um+hv18OPCbLOQSkVf8=\""
+          "Value": "\"cBh6o1x8ry9KQFgcqkTDxd8W3hlMteIzTo+40IUygS4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 01 Jun 2025 00:28:53 GMT"
+          "Value": "Sat, 19 Jul 2025 03:11:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3392,52 +3437,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-s8wZNVfWPdZu6lvir/Z0xvv6Um+hv18OPCbLOQSkVf8="
-        }
-      ]
-    },
-    {
-      "Route": "js/logInValidation.vli6dbn289.js",
-      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\js\\logInValidation.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2113"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"s8wZNVfWPdZu6lvir/Z0xvv6Um+hv18OPCbLOQSkVf8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 01 Jun 2025 00:28:53 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vli6dbn289"
-        },
-        {
-          "Name": "label",
-          "Value": "js/logInValidation.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-s8wZNVfWPdZu6lvir/Z0xvv6Um+hv18OPCbLOQSkVf8="
+          "Value": "sha256-cBh6o1x8ry9KQFgcqkTDxd8W3hlMteIzTo+40IUygS4="
         }
       ]
     },

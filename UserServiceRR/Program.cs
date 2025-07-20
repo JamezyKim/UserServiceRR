@@ -10,6 +10,8 @@ builder.Services.AddDbContext<TestDB>(options => options.UseSqlServer(builder.Co
 
 var app = builder.Build();
 
+
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace UserServiceRR.Models
 {
-    public class TransactionClass
+    public class Transaction
     {
         [Key]
         public Guid TransactionId { get; set; }

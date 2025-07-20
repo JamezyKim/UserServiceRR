@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace UserServiceRR.Models
 {
-    public class ProductClass
+    public class Product
     {
         [Key]
         public Guid ProductId { get; set; }
