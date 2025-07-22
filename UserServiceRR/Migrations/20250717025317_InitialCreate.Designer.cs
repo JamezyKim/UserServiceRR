@@ -5,13 +5,13 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using UserServiceRR.Models.UserServiceRR.Models;
+using UserServiceRR.Models;
 
 #nullable disable
 
 namespace UserServiceRR.Migrations
 {
-    [DbContext(typeof(TestDB))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20250717025317_InitialCreate")]
     partial class InitialCreate
     {
@@ -25,7 +25,7 @@ namespace UserServiceRR.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("UserServiceRR.Models.ProductClass", b =>
+            modelBuilder.Entity("UserServiceRR.Models.Product", b =>
                 {
                     b.Property<Guid>("ProductId")
                         .ValueGeneratedOnAdd()
@@ -46,10 +46,10 @@ namespace UserServiceRR.Migrations
 
                     b.HasKey("ProductId");
 
-                    b.ToTable("Products");
+                    b.ToTable("Product");
                 });
 
-            modelBuilder.Entity("UserServiceRR.Models.TransactionClass", b =>
+            modelBuilder.Entity("UserServiceRR.Models.Transaction", b =>
                 {
                     b.Property<Guid>("TransactionId")
                         .ValueGeneratedOnAdd()
@@ -66,10 +66,10 @@ namespace UserServiceRR.Migrations
 
                     b.HasKey("TransactionId");
 
-                    b.ToTable("Transactions");
+                    b.ToTable("Transaction");
                 });
 
-            modelBuilder.Entity("UserServiceRR.Models.UserClass", b =>
+            modelBuilder.Entity("UserServiceRR.Models.User", b =>
                 {
                     b.Property<Guid>("ID")
                         .ValueGeneratedOnAdd()
@@ -95,7 +95,7 @@ namespace UserServiceRR.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Users");
+                    b.ToTable("User");
                 });
 #pragma warning restore 612, 618
         }

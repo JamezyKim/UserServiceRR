@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DawtdarvnBv9l5BZ3q3JywS9bsIuRbQO5AYiPXiN11Y=",
+  "Hash": "PDRBO64SDzyik/KIPp2xznUQz95PNyMQbALCza2ULUg=",
   "Source": "UserServiceRR",
   "BasePath": "_content/UserServiceRR",
   "Mode": "Default",
@@ -283,8 +283,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "l7nec10v4q",
-      "Integrity": "AV3ewZhPFTRd4v7h5q77sGO032TR4aiIELM1z/8/ChE=",
+      "Fingerprint": "arqm1w4e3c",
+      "Integrity": "9hGVzXIEq6Y/wBpU8PBoxVvs4DqoW41Tj+PfLWBzoU0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\html\\signIn.html"
@@ -304,8 +304,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "oatit45uci",
-      "Integrity": "0AEqB1KAlwxToD93/tm3XSUQEVF92Ou0jJQS1/tidBA=",
+      "Fingerprint": "zhjceiaopv",
+      "Integrity": "t+Ogv7nUAcl80LfOZfM7ljMk0841FIx9sGqPAdyxniQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\html\\signUp.html"
@@ -493,8 +493,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c1wt1oplcn",
-      "Integrity": "cBh6o1x8ry9KQFgcqkTDxd8W3hlMteIzTo+40IUygS4=",
+      "Fingerprint": "y0p5vhsldd",
+      "Integrity": "Do/qgi/BVrvBsLj6Z7CGq+qZJ+jNws/FsTe0uNlQc8w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\logInValidation.js"
@@ -1716,6 +1716,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Scripts\\ResetDbSchema.sql",
+      "SourceId": "UserServiceRR",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\",
+      "BasePath": "_content/UserServiceRR",
+      "RelativePath": "Scripts/ResetDbSchema#[.{fingerprint}]?.sql",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2qfx50m12c",
+      "Integrity": "2pKTm+vVGbk02GwGmgtIFql7u29F2stHEVEdvTPIKz8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Scripts\\ResetDbSchema.sql"
     }
   ],
   "Endpoints": [
@@ -2540,6 +2561,51 @@
       ]
     },
     {
+      "Route": "html/signIn.arqm1w4e3c.html",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\signIn.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1450"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9hGVzXIEq6Y/wBpU8PBoxVvs4DqoW41Tj+PfLWBzoU0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jul 2025 03:22:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "arqm1w4e3c"
+        },
+        {
+          "Name": "label",
+          "Value": "html/signIn.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9hGVzXIEq6Y/wBpU8PBoxVvs4DqoW41Tj+PfLWBzoU0="
+        }
+      ]
+    },
+    {
       "Route": "html/signIn.html",
       "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\signIn.html",
       "Selectors": [],
@@ -2550,7 +2616,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1449"
+          "Value": "1450"
         },
         {
           "Name": "Content-Type",
@@ -2558,11 +2624,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AV3ewZhPFTRd4v7h5q77sGO032TR4aiIELM1z/8/ChE=\""
+          "Value": "\"9hGVzXIEq6Y/wBpU8PBoxVvs4DqoW41Tj+PfLWBzoU0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Jul 2025 02:57:12 GMT"
+          "Value": "Tue, 22 Jul 2025 03:22:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2572,52 +2638,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AV3ewZhPFTRd4v7h5q77sGO032TR4aiIELM1z/8/ChE="
-        }
-      ]
-    },
-    {
-      "Route": "html/signIn.l7nec10v4q.html",
-      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\signIn.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1449"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AV3ewZhPFTRd4v7h5q77sGO032TR4aiIELM1z/8/ChE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 19 Jul 2025 02:57:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "l7nec10v4q"
-        },
-        {
-          "Name": "label",
-          "Value": "html/signIn.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-AV3ewZhPFTRd4v7h5q77sGO032TR4aiIELM1z/8/ChE="
+          "Value": "sha256-9hGVzXIEq6Y/wBpU8PBoxVvs4DqoW41Tj+PfLWBzoU0="
         }
       ]
     },
@@ -2632,7 +2653,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "38"
+          "Value": "1477"
         },
         {
           "Name": "Content-Type",
@@ -2640,11 +2661,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0AEqB1KAlwxToD93/tm3XSUQEVF92Ou0jJQS1/tidBA=\""
+          "Value": "\"t+Ogv7nUAcl80LfOZfM7ljMk0841FIx9sGqPAdyxniQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 04:07:08 GMT"
+          "Value": "Tue, 22 Jul 2025 03:31:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2654,12 +2675,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0AEqB1KAlwxToD93/tm3XSUQEVF92Ou0jJQS1/tidBA="
+          "Value": "sha256-t+Ogv7nUAcl80LfOZfM7ljMk0841FIx9sGqPAdyxniQ="
         }
       ]
     },
     {
-      "Route": "html/signUp.oatit45uci.html",
+      "Route": "html/signUp.zhjceiaopv.html",
       "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\signUp.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2669,7 +2690,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "38"
+          "Value": "1477"
         },
         {
           "Name": "Content-Type",
@@ -2677,11 +2698,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0AEqB1KAlwxToD93/tm3XSUQEVF92Ou0jJQS1/tidBA=\""
+          "Value": "\"t+Ogv7nUAcl80LfOZfM7ljMk0841FIx9sGqPAdyxniQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 04:07:08 GMT"
+          "Value": "Tue, 22 Jul 2025 03:31:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2691,7 +2712,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "oatit45uci"
+          "Value": "zhjceiaopv"
         },
         {
           "Name": "label",
@@ -2699,7 +2720,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0AEqB1KAlwxToD93/tm3XSUQEVF92Ou0jJQS1/tidBA="
+          "Value": "sha256-t+Ogv7nUAcl80LfOZfM7ljMk0841FIx9sGqPAdyxniQ="
         }
       ]
     },
@@ -3360,51 +3381,6 @@
       ]
     },
     {
-      "Route": "js/logInValidation.c1wt1oplcn.js",
-      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\js\\logInValidation.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1722"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"cBh6o1x8ry9KQFgcqkTDxd8W3hlMteIzTo+40IUygS4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 19 Jul 2025 03:11:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c1wt1oplcn"
-        },
-        {
-          "Name": "label",
-          "Value": "js/logInValidation.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-cBh6o1x8ry9KQFgcqkTDxd8W3hlMteIzTo+40IUygS4="
-        }
-      ]
-    },
-    {
       "Route": "js/logInValidation.js",
       "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\js\\logInValidation.js",
       "Selectors": [],
@@ -3415,7 +3391,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1722"
+          "Value": "1718"
         },
         {
           "Name": "Content-Type",
@@ -3423,11 +3399,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cBh6o1x8ry9KQFgcqkTDxd8W3hlMteIzTo+40IUygS4=\""
+          "Value": "\"Do/qgi/BVrvBsLj6Z7CGq+qZJ+jNws/FsTe0uNlQc8w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Jul 2025 03:11:50 GMT"
+          "Value": "Tue, 22 Jul 2025 02:58:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3437,7 +3413,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cBh6o1x8ry9KQFgcqkTDxd8W3hlMteIzTo+40IUygS4="
+          "Value": "sha256-Do/qgi/BVrvBsLj6Z7CGq+qZJ+jNws/FsTe0uNlQc8w="
+        }
+      ]
+    },
+    {
+      "Route": "js/logInValidation.y0p5vhsldd.js",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\js\\logInValidation.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1718"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Do/qgi/BVrvBsLj6Z7CGq+qZJ+jNws/FsTe0uNlQc8w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jul 2025 02:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y0p5vhsldd"
+        },
+        {
+          "Name": "label",
+          "Value": "js/logInValidation.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Do/qgi/BVrvBsLj6Z7CGq+qZJ+jNws/FsTe0uNlQc8w="
         }
       ]
     },
@@ -8198,6 +8219,88 @@
       ]
     },
     {
+      "Route": "Scripts/ResetDbSchema.2qfx50m12c.sql",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Scripts\\ResetDbSchema.sql",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6320"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2pKTm+vVGbk02GwGmgtIFql7u29F2stHEVEdvTPIKz8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jul 2025 02:30:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2qfx50m12c"
+        },
+        {
+          "Name": "label",
+          "Value": "Scripts/ResetDbSchema.sql"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2pKTm+vVGbk02GwGmgtIFql7u29F2stHEVEdvTPIKz8="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/ResetDbSchema.sql",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Scripts\\ResetDbSchema.sql",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6320"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2pKTm+vVGbk02GwGmgtIFql7u29F2stHEVEdvTPIKz8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jul 2025 02:30:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2pKTm+vVGbk02GwGmgtIFql7u29F2stHEVEdvTPIKz8="
+        }
+      ]
+    },
+    {
       "Route": "UserServiceRR.0x5f60l45k.bundle.scp.css",
       "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\UserServiceRR.bundle.scp.css",
       "Selectors": [],
@@ -8220,7 +8323,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 17 Jul 2025 01:02:32 GMT"
+          "Value": "Tue, 22 Jul 2025 03:23:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8265,7 +8368,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 17 Jul 2025 01:02:32 GMT"
+          "Value": "Tue, 22 Jul 2025 03:23:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8310,7 +8413,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 17 Jul 2025 01:02:32 GMT"
+          "Value": "Tue, 22 Jul 2025 03:23:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8347,7 +8450,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 17 Jul 2025 01:02:32 GMT"
+          "Value": "Tue, 22 Jul 2025 03:23:50 GMT"
         },
         {
           "Name": "Cache-Control",

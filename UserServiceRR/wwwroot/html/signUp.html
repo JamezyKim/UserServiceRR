@@ -1,4 +1,40 @@
 <!DOCTYPE html>
-<html>
-    
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-3.7.1.min.js"></script>
+    <script src="/js/logInValidation.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="bodySet">
+    <p id="alternativeTextBox"></p>
+    <div id="blackRoundBox">
+        <h1>Sign up System</h1>
+        <p class="signInForm" id="signInTextBox">
+            Sign in
+            <span><a href="login.html" id="createAccountLink" class="linkBox">Create account</a></span>
+            <span>
+                <a href="homePage.html" id="homePageLink">
+                    <img src="/images/instaHomePage.png" width="40" height="35">
+                </a>
+            </span>
+        </p>
+        <form class="signInForm" onsubmit=" getUserInfo();  return false;">
+            <label class="signInLabel" for="email">Email:</label><br>
+            <input type="email" id="email" name="email" class="inputLabel" placeholder="ex: abc@gmail.com"><br><br>
+
+            <label class="signInLabel" for="password">Password:</label><br>
+            <input type="password" id="password" name="password" class="inputLabel"><br><br>
+
+            <br>
+
+            <input type="submit" id="submitButton" name="Create Account" class="inputLabel" value="Create Account"><br><br>
+        </form>
+    </div>
+    <br>
+</body>
 </html>

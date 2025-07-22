@@ -192,8 +192,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>l7nec10v4q</Fingerprint>
-      <Integrity>AV3ewZhPFTRd4v7h5q77sGO032TR4aiIELM1z/8/ChE=</Integrity>
+      <Fingerprint>arqm1w4e3c</Fingerprint>
+      <Integrity>9hGVzXIEq6Y/wBpU8PBoxVvs4DqoW41Tj+PfLWBzoU0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\signIn.html'))</OriginalItemSpec>
@@ -210,8 +210,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>oatit45uci</Fingerprint>
-      <Integrity>0AEqB1KAlwxToD93/tm3XSUQEVF92Ou0jJQS1/tidBA=</Integrity>
+      <Fingerprint>zhjceiaopv</Fingerprint>
+      <Integrity>t+Ogv7nUAcl80LfOZfM7ljMk0841FIx9sGqPAdyxniQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\signUp.html'))</OriginalItemSpec>
@@ -372,8 +372,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>c1wt1oplcn</Fingerprint>
-      <Integrity>cBh6o1x8ry9KQFgcqkTDxd8W3hlMteIzTo+40IUygS4=</Integrity>
+      <Fingerprint>y0p5vhsldd</Fingerprint>
+      <Integrity>Do/qgi/BVrvBsLj6Z7CGq+qZJ+jNws/FsTe0uNlQc8w=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\logInValidation.js'))</OriginalItemSpec>
@@ -1421,6 +1421,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Scripts\ResetDbSchema.sql'))">
+      <SourceType>Package</SourceType>
+      <SourceId>UserServiceRR</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/UserServiceRR</BasePath>
+      <RelativePath>Scripts/ResetDbSchema.sql</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2qfx50m12c</Fingerprint>
+      <Integrity>2pKTm+vVGbk02GwGmgtIFql7u29F2stHEVEdvTPIKz8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Scripts\ResetDbSchema.sql'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\UserServiceRR.0x5f60l45k.bundle.scp.css'))">
       <SourceType>Package</SourceType>

@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\Images\\instaHomePage.png"
     },
     {
+      "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Scripts\\ResetDbSchema.sql",
+      "PackagePath": "staticwebassets\\Scripts\\ResetDbSchema.sql"
+    },
+    {
       "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

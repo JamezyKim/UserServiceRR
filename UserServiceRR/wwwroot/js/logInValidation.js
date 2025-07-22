@@ -12,7 +12,7 @@ const dataBase = [
 function getUserInfo() {
     email = document.getElementById("email").value;
     password = document.getElementById("password").value;
-    logInUrl = "https://localhost:7245/Home/LogIn?email='" + email+ "'&password='" + password + "'";
+    logInUrl = "https://localhost:7245/Home/LogIn?email=" + email+ "&password=" + password + "";
     window.location.replace(logInUrl);
 }
 
