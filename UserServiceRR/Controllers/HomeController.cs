@@ -15,9 +15,6 @@ public class HomeController : Controller
         _logger = logger;
         _context = context;
     }
-
-
-
     public IActionResult Index()
     {
         return View();
@@ -41,20 +38,17 @@ public class HomeController : Controller
         .Options;
 
         using var context2 = new ApplicationDbContext(contextOptions);
-
-
-
         var userList = new List<User>();
         using (var context = context2)
         {
             var users = context.User.ToList();
             foreach (var user in users)
             {
-                if (user.UserName == email && user.Password == password)
+                if (user.Email == email && user.Password == password)
                 {
                     var userID = Guid.NewGuid();
                     var userInfo = new User();
-                    userInfo.UserName = email;
+                    userInfo.Email = email;
                     userInfo.Password = password;
                     userInfo.ID = userID;
                     userInfo.CreatedByUserID = userID;
@@ -66,11 +60,9 @@ public class HomeController : Controller
                 }
             }
             //users = context.User.Where(b => b.UserName == email).ToList();
-            return "success";
-
+            return "login fail";
         }
 
-        return "login fail";
     }
 
 }

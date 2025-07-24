@@ -3,12 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|c:\\users\\pc\\source\\repos\\userservicerr\\userservicerr\\wwwroot\\html\\signup.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|solutionrelative:userservicerr\\wwwroot\\html\\signup.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|c:\\users\\pc\\source\\repos\\userservicerr\\userservicerr\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|solutionrelative:userservicerr\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|c:\\users\\pc\\source\\repos\\userservicerr\\userservicerr\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|solutionrelative:userservicerr\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\AppData\\Local\\SourceServer\\f73d22f6b1fe3ee4b82cd6e46672e2edb5864abefe76e72fb48276f9bb24bc19\\UserServiceRR\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|c:\\users\\pc\\source\\repos\\userservicerr\\userservicerr\\wwwroot\\js\\loginvalidation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -19,12 +18,28 @@
       "RelativeMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|solutionrelative:userservicerr\\wwwroot\\html\\signin.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|c:\\users\\pc\\source\\repos\\userservicerr\\userservicerr\\wwwroot\\scripts\\resetdbschema.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|solutionrelative:userservicerr\\wwwroot\\scripts\\resetdbschema.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|c:\\users\\pc\\source\\repos\\userservicerr\\userservicerr\\wwwroot\\html\\signup.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|solutionrelative:userservicerr\\wwwroot\\html\\signup.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|c:\\users\\pc\\source\\repos\\userservicerr\\userservicerr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|solutionrelative:userservicerr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|c:\\users\\pc\\source\\repos\\userservicerr\\userservicerr\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|solutionrelative:userservicerr\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|c:\\users\\pc\\source\\repos\\userservicerr\\userservicerr\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|solutionrelative:userservicerr\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|c:\\users\\pc\\source\\repos\\userservicerr\\userservicerr\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|solutionrelative:userservicerr\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|c:\\users\\pc\\source\\repos\\userservicerr\\userservicerr\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|solutionrelative:userservicerr\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|c:\\users\\pc\\source\\repos\\userservicerr\\userservicerr\\wwwroot\\scripts\\resetdbschema.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|solutionrelative:userservicerr\\wwwroot\\scripts\\resetdbschema.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|c:\\users\\pc\\source\\repos\\userservicerr\\userservicerr\\wwwroot\\scripts\\resetdbschema.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
@@ -38,7 +53,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -48,7 +63,7 @@
               "RelativeDocumentMoniker": "UserServiceRR\\wwwroot\\js\\logInValidation.js",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\js\\logInValidation.js",
               "RelativeToolTip": "UserServiceRR\\wwwroot\\js\\logInValidation.js",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-07-22T02:57:15.209Z",
               "IsPinned": true,
@@ -62,7 +77,7 @@
               "RelativeDocumentMoniker": "UserServiceRR\\wwwroot\\html\\signIn.html",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\signIn.html",
               "RelativeToolTip": "UserServiceRR\\wwwroot\\html\\signIn.html",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-07-22T03:19:16.607Z",
               "IsPinned": true,
@@ -70,13 +85,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "signUp.html",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\signUp.html",
               "RelativeDocumentMoniker": "UserServiceRR\\wwwroot\\html\\signUp.html",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\signUp.html",
               "RelativeToolTip": "UserServiceRR\\wwwroot\\html\\signUp.html",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAEEAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-07-22T03:19:11.634Z",
               "IsPinned": true,
@@ -88,7 +103,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\AppData\\Local\\SourceServer\\f73d22f6b1fe3ee4b82cd6e46672e2edb5864abefe76e72fb48276f9bb24bc19\\UserServiceRR\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\f73d22f6b1fe3ee4b82cd6e46672e2edb5864abefe76e72fb48276f9bb24bc19\\UserServiceRR\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\PC\\AppData\\Local\\SourceServer\\f73d22f6b1fe3ee4b82cd6e46672e2edb5864abefe76e72fb48276f9bb24bc19\\UserServiceRR\\Controllers\\HomeController.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\f73d22f6b1fe3ee4b82cd6e46672e2edb5864abefe76e72fb48276f9bb24bc19\\UserServiceRR\\Controllers\\HomeController.cs [Read Only]",
+              "ViewState": "AgIAACcAAAAAAAAAAAAiwDQAAAAQAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T18:54:13.77Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "UserServiceRR\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\Controllers\\HomeController.cs*",
+              "RelativeToolTip": "UserServiceRR\\Controllers\\HomeController.cs*",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T18:50:00.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "UserServiceRR\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\Models\\Product.cs",
+              "RelativeToolTip": "UserServiceRR\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T18:36:46.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\Models\\User.cs",
+              "RelativeDocumentMoniker": "UserServiceRR\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\Models\\User.cs",
+              "RelativeToolTip": "UserServiceRR\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T18:36:40.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "UserServiceRR\\Models\\Transaction.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\Models\\Transaction.cs",
+              "RelativeToolTip": "UserServiceRR\\Models\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T18:36:36.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\css\\styles.css",
+              "RelativeDocumentMoniker": "UserServiceRR\\wwwroot\\css\\styles.css",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\css\\styles.css",
+              "RelativeToolTip": "UserServiceRR\\wwwroot\\css\\styles.css",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAIMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-22T03:29:29.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ResetDbSchema.sql ",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\Scripts\\ResetDbSchema.sql",
               "RelativeDocumentMoniker": "UserServiceRR\\wwwroot\\Scripts\\ResetDbSchema.sql",
@@ -96,31 +189,6 @@
               "RelativeToolTip": "UserServiceRR\\wwwroot\\Scripts\\ResetDbSchema.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2025-07-23T05:20:59.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\Program.cs",
-              "RelativeDocumentMoniker": "UserServiceRR\\Program.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\Program.cs",
-              "RelativeToolTip": "UserServiceRR\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T03:10:44.326Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "styles.css",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\css\\styles.css",
-              "RelativeDocumentMoniker": "UserServiceRR\\wwwroot\\css\\styles.css",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\css\\styles.css",
-              "RelativeToolTip": "UserServiceRR\\wwwroot\\css\\styles.css",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAuwE0AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-07-22T03:29:29.455Z",
               "EditorCaption": ""
             }
           ]
