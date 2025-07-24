@@ -5,13 +5,6 @@ var email;
 var password;
 var logInUrl;
 
-const dataBase = [
-    { email: 'yt4921@gmail.com', password: 'abc' },
-    { email: 'nam@gmail.com', password: '123' },
-    { email: 'ykkk@gmail.com', password: '123' }
-]
-
-
 function getUserInfo() {
     email = document.getElementById("email").value;
     password = document.getElementById("password").value;

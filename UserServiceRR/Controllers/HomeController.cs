@@ -31,10 +31,6 @@ public class HomeController : Controller
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 
-
-
-
-
     public string LogIn(string email, string password) 
     {
         var contextOptions = new DbContextOptionsBuilder<ApplicationDbContext>()
@@ -96,10 +92,6 @@ public class HomeController : Controller
             context.User.Add(userInfo);
             await context.SaveChangesAsync();
         }
-
         return "add user info";
     }
-
-
-
 }
