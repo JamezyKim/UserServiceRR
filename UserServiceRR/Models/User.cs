@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace UserServiceRR.Models
 {
@@ -7,12 +8,16 @@ namespace UserServiceRR.Models
         [Key]
         public Guid ID { get; set; }
         public string Email { get; set; }
-        public string BirthDay { get; set; }
+        public DateTime? BirthDay { get; set; }
         public string PhoneNumber { get; set; }
-        public DateTime CreatedDate { get; set; }
+        public DateTime? CreatedDate { get; set; }
         public Guid CreatedByUserID { get; set; }
-        public DateTime ModifiedDate { get; set; }
+        public DateTime? ModifiedDate { get; set; }
         public Guid ModifiedByUserID { get; set; }
+        [NotMapped]
+        public string FirstName { get; set; }
+        [NotMapped]
+        public string LastName { get; set; }
         public string UserName { get; set; }
         public string Password { get; set; }
     }

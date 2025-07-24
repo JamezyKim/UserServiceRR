@@ -21,12 +21,15 @@ function getUserInfo() {
 
 function addUserInfo() {
     ID = document.getElementById("ID").value;
-    birthDay = document.getElementById("birthDay").value;
+    firstName = document.getElementById("firstName").value;
+    lastName = document.getElementById("lastName").value;
+    birthDay = document.getElementById("birthYear").value + "-" + document.getElementById("birthMonth").value + "-" + document.getElementById("birthDay").value;
     phoneNumber = document.getElementById("phoneNumber").value;
     email = document.getElementById("email").value;
     password = document.getElementById("password").value;
-    logInUrl = "https://localhost:7245/Home/LogIn?email=" + ID + "&birthDay" + birthDay + "&phoneNumber=" + phoneNumber + "&email=" + email +  "&password=" + password +  "";
-    window.location.replace(logInUrl);
+
+    signUpUrl = "https://localhost:7245/Home/SignUp?email=" + email + "&firstName=" + firstName + "&lastName=" + lastName + "&birthDay=" + birthDay + "&phoneNumber=" + phoneNumber + "&ID=" + ID +  "&password=" + password +  "";
+    window.location.replace(signUpUrl);
 }
 
 const encryptMap = {};

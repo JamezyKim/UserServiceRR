@@ -31,6 +31,10 @@ public class HomeController : Controller
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 
+
+
+
+
     public string LogIn(string email, string password) 
     {
         var contextOptions = new DbContextOptionsBuilder<ApplicationDbContext>()
@@ -62,7 +66,40 @@ public class HomeController : Controller
             //users = context.User.Where(b => b.UserName == email).ToList();
             return "login fail";
         }
-
     }
+
+    public async Task<string> SignUp(string firstName, string lastName, string birthDay, string phoneNumber, string email, string password)
+    {
+        var contextOptions = new DbContextOptionsBuilder<ApplicationDbContext>()
+            .UseSqlServer(@"Server=localhost\SQLEXPRESS;Database=TestDB;ConnectRetryCount=0")
+            .Options;
+
+        using (var context = new ApplicationDbContext(contextOptions))
+        {
+            var userID = Guid.NewGuid();
+            var userInfo = new User();
+
+            userInfo.ID = userID;
+            userInfo.FirstName = firstName;
+            userInfo.LastName = lastName;
+            userInfo.UserName = firstName + " " + lastName;
+            userInfo.BirthDay = DateTime.Parse(birthDay);
+            userInfo.PhoneNumber = phoneNumber;
+            userInfo.Email = email;
+            userInfo.Password = password;
+
+            userInfo.CreatedByUserID = userID;
+            userInfo.CreatedDate = DateTime.UtcNow;
+            userInfo.ModifiedByUserID = userInfo.ID;
+            userInfo.ModifiedDate = DateTime.UtcNow;
+
+            context.User.Add(userInfo);
+            await context.SaveChangesAsync();
+        }
+
+        return "add user info";
+    }
+
+
 
 }
