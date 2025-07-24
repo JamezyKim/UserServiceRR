@@ -1,9 +1,13 @@
+-----------------------User
+USE TestDB;  
+GO
+
 --Drop table
 IF EXISTS (SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE='BASE TABLE' AND TABLE_NAME='User' AND TABLE_SCHEMA='dbo')
 BEGIN
-	DELETE [User] FROM [User]
-	DROP TABLE [User]
+    DROP TABLE dbo.[User];
 END
+
 ELSE
 BEGIN
 	SELECT 'THE TABLE DID NOT EXITS'
@@ -12,14 +16,17 @@ END
 --Create table
 
 CREATE TABLE [User](
-	[ID] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY,
-	[CreatedDate] DATETIME NOT NULL,
-	[CreatedByUserID] UNIQUEIDENTIFIER NOT NULL,
-	[ModifiedDate] DATETIME NOT NULL, 
-	[ModifiedByUserID] UNIQUEIDENTIFIER NOT NULL,
-	[UserName] VARCHAR(50),
-	[Password] VARCHAR(50),
-)
+    [UserName] VARCHAR(50) NOT NULL,
+    [ID] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY,
+    [BirthDay] VARCHAR(40),
+    [PhoneNumber] VARCHAR(30),
+    [CreatedDate] DATETIME NOT NULL,
+    [CreatedByUserID] UNIQUEIDENTIFIER NOT NULL,
+    [ModifiedDate] DATETIME NOT NULL, 
+    [ModifiedByUserID] UNIQUEIDENTIFIER NOT NULL,
+    [Email] VARCHAR(50),
+    [Password] VARCHAR(50)
+);
 
 SELECT 'TABLE IS CREATED'
 
@@ -27,30 +34,31 @@ DECLARE @userID varchar(100) = 'A91F2833-FC81-4A3F-852E-526DE064FBAC'
 
 --Create table
 
-INSERT INTO [dbo].[User] (ID, CreatedDate, CreatedByUserID, ModifiedDate, ModifiedByUserID, UserName, [Password])
+INSERT INTO [dbo].[User] ([UserName], [ID], [BirthDay], [PhoneNumber], [CreatedDate], [CreatedByUserID], [ModifiedDate], [ModifiedByUserID], [Email], [Password])
 VALUES
-(NEWID(),GETUTCDATE(), @userID, GETUTCDATE(), @userID,'tom.choi@gmail.com','T0mCh0i@'),
-(NEWID(),GETUTCDATE(), @userID, GETUTCDATE(), @userID,'kevin.park@yahoo.com','K3v!nPass '),
-(NEWID(),GETUTCDATE(), @userID, GETUTCDATE(), @userID,'helen.bae@aol.com','Hel3n2024'),
-(NEWID(),GETUTCDATE(), @userID, GETUTCDATE(), @userID,'lucy.jeong@gmail.com','Lcy2025!'),
-(NEWID(),GETUTCDATE(), @userID, GETUTCDATE(), @userID,'sue.jo@hanmail.net','SueJo123'),
-(NEWID(),GETUTCDATE(), @userID, GETUTCDATE(), @userID,'daniel.ahn@gmail.com','D@niel!23'),
-(NEWID(),GETUTCDATE(), @userID, GETUTCDATE(), @userID,'mark.shin@outlook.com','MarkPwd7'),
-(NEWID(),GETUTCDATE(), @userID, GETUTCDATE(), @userID,'ben.han@hanmail.net','B3nHan#1'),
-(NEWID(),GETUTCDATE(), @userID, GETUTCDATE(), @userID,'sophia.yun@daum.net','Sophia#1'),
-(NEWID(),GETUTCDATE(), @userID, GETUTCDATE(), @userID,'yuna.kang@naver.com','YunaK!55'),
-(NEWID(),GETUTCDATE(), @userID, GETUTCDATE(), @userID,'diana.lee@hotmail.com','Diana#89'),
-(NEWID(),GETUTCDATE(), @userID, GETUTCDATE(), @userID,'alice.won@gmail.com','Alice2025!'),
-(NEWID(),GETUTCDATE(), @userID, GETUTCDATE(), @userID,'eric.kim@daum.net','Er!cK00'),
-(NEWID(),GETUTCDATE(), @userID, GETUTCDATE(), @userID,'ryan.jung@outlook.com','Ryun9876'),
-(NEWID(),GETUTCDATE(), @userID, GETUTCDATE(), @userID,'minji.seo@gmail.com','M!nji789'),
-(NEWID(),GETUTCDATE(), @userID, GETUTCDATE(), @userID,'victor.hwang@kakao.com','V!ctor78'),
-(NEWID(),GETUTCDATE(), @userID, GETUTCDATE(), @userID,'julia.kwon@yahoo.com','Juli@998'),
-(NEWID(),GETUTCDATE(), @userID, GETUTCDATE(), @userID,'grace.kim@naver.com','Gr@ceK123'),
-(NEWID(),GETUTCDATE(), @userID, GETUTCDATE(), @userID,'jenny.ryu@naver.com','Jenny#99')
+('Tom Choi', NEWID(), '1988-05-14', '010-5555-1111', GETUTCDATE(), @userID, GETUTCDATE(), @userID, 'tom.choi@gmail.com', 'T0mCh0i@'),
+('Kevin Park', NEWID(), '1990-07-02', '010-1234-5678', GETUTCDATE(), @userID, GETUTCDATE(), @userID, 'kevin.park@yahoo.com', 'K3v!nPass '),
+('Helen Bae', NEWID(), '1993-12-01', '010-2222-3333', GETUTCDATE(), @userID, GETUTCDATE(), @userID, 'helen.bae@aol.com', 'Hel3n2024'),
+('Lucy Jeong', NEWID(), '1995-03-10', '010-9999-0000', GETUTCDATE(), @userID, GETUTCDATE(), @userID, 'lucy.jeong@gmail.com', 'Lcy2025!'),
+('Sue Jo', NEWID(), '1987-08-22', '010-8888-6666', GETUTCDATE(), @userID, GETUTCDATE(), @userID, 'sue.jo@hanmail.net', 'SueJo123'),
+('Daniel Ahn', NEWID(), '1992-11-30', '010-3333-4444', GETUTCDATE(), @userID, GETUTCDATE(), @userID, 'daniel.ahn@gmail.com', 'D@niel!23'),
+('Mark Shin', NEWID(), '1991-06-18', '010-7777-1212', GETUTCDATE(), @userID, GETUTCDATE(), @userID, 'mark.shin@outlook.com', 'MarkPwd7'),
+('Ben Han', NEWID(), '1989-04-04', '010-1000-2000', GETUTCDATE(), @userID, GETUTCDATE(), @userID, 'ben.han@hanmail.net', 'B3nHan#1'),
+('Sophia Yun', NEWID(), '1996-09-15', '010-3131-4141', GETUTCDATE(), @userID, GETUTCDATE(), @userID, 'sophia.yun@daum.net', 'Sophia#1'),
+('Yuna Kang', NEWID(), '1994-02-27', '010-4444-5555', GETUTCDATE(), @userID, GETUTCDATE(), @userID, 'yuna.kang@naver.com', 'YunaK!55'),
+('Diana Lee', NEWID(), '1997-10-12', '010-1212-3434', GETUTCDATE(), @userID, GETUTCDATE(), @userID, 'diana.lee@hotmail.com', 'Diana#89'),
+('Alice Won', NEWID(), '1993-01-05', '010-1111-2222', GETUTCDATE(), @userID, GETUTCDATE(), @userID, 'alice.won@gmail.com', 'Alice2025!'),
+('Eric Kim', NEWID(), '1990-03-09', '010-7777-8888', GETUTCDATE(), @userID, GETUTCDATE(), @userID, 'eric.kim@daum.net', 'Er!cK00'),
+('Ryan Jung', NEWID(), '1995-06-06', '010-6666-1111', GETUTCDATE(), @userID, GETUTCDATE(), @userID, 'ryan.jung@outlook.com', 'Ryun9876'),
+('Minji Seo', NEWID(), '1998-11-11', '010-2020-3030', GETUTCDATE(), @userID, GETUTCDATE(), @userID, 'minji.seo@gmail.com', 'M!nji789'),
+('Victor Hwang', NEWID(), '1986-07-07', '010-5050-6060', GETUTCDATE(), @userID, GETUTCDATE(), @userID, 'victor.hwang@kakao.com', 'V!ctor78'),
+('Julia Kwon', NEWID(), '1992-04-28', '010-3030-4040', GETUTCDATE(), @userID, GETUTCDATE(), @userID, 'julia.kwon@yahoo.com', 'Juli@998'),
+('Grace Kim', NEWID(), '1989-09-09', '010-1313-2424', GETUTCDATE(), @userID, GETUTCDATE(), @userID, 'grace.kim@naver.com', 'Gr@ceK123'),
+('Jenny Ryu', NEWID(), '1996-08-20', '010-0909-0808', GETUTCDATE(), @userID, GETUTCDATE(), @userID, 'jenny.ryu@naver.com', 'Jenny#99');
 
 
---------------------------------------
+
+--------------------------------------Product
 
 
 USE [TestDB]
@@ -73,13 +81,8 @@ CREATE TABLE [dbo].[Product](
 
 --Insert Table
 
-INSERT INTO [dbo].[Product]
-           ([ProductId]
-           ,[CreatedDate]
-           ,[ProductName]
-           ,[Price]
-           ,[Stock])
-     VALUES
+INSERT INTO [dbo].[Product]¡¡([ProductId],[CreatedDate],[ProductName],[Price],[Stock])
+VALUES
 (NEWID(), GETUTCDATE(), 'iPhone 15 Pro', 1499.99, 25),
 (NEWID(), GETUTCDATE(), 'Samsung Galaxy S24', 1299.99, 30),
 (NEWID(), GETUTCDATE(), 'MacBook Pro 16"', 2899.00, 10),
@@ -103,7 +106,8 @@ INSERT INTO [dbo].[Product]
 GO
 
 
---------------------------------------
+
+--------------------------------------Transaction
 
 USE [TestDB]
 GO

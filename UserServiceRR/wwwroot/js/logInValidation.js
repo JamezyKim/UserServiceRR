@@ -1,3 +1,6 @@
+var ID;
+var birthDay;
+var phoneNumber;
 var email;
 var password;
 var logInUrl;
@@ -13,6 +16,16 @@ function getUserInfo() {
     email = document.getElementById("email").value;
     password = document.getElementById("password").value;
     logInUrl = "https://localhost:7245/Home/LogIn?email=" + email+ "&password=" + password + "";
+    window.location.replace(logInUrl);
+}
+
+function addUserInfo() {
+    ID = document.getElementById("ID").value;
+    birthDay = document.getElementById("birthDay").value;
+    phoneNumber = document.getElementById("phoneNumber").value;
+    email = document.getElementById("email").value;
+    password = document.getElementById("password").value;
+    logInUrl = "https://localhost:7245/Home/LogIn?email=" + ID + "&birthDay" + birthDay + "&phoneNumber=" + phoneNumber + "&email=" + email +  "&password=" + password +  "";
     window.location.replace(logInUrl);
 }
 
