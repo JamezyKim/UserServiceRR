@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|solutionrelative:userservicerr\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|c:\\users\\pc\\source\\repos\\userservicerr\\userservicerr\\wwwroot\\html\\signin.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|solutionrelative:userservicerr\\wwwroot\\html\\signin.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|c:\\users\\pc\\source\\repos\\userservicerr\\userservicerr\\wwwroot\\js\\loginvalidation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|solutionrelative:userservicerr\\wwwroot\\js\\loginvalidation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|c:\\users\\pc\\source\\repos\\userservicerr\\userservicerr\\wwwroot\\html\\signin.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|solutionrelative:userservicerr\\wwwroot\\html\\signin.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|c:\\users\\pc\\source\\repos\\userservicerr\\userservicerr\\wwwroot\\scripts\\resetdbschema.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
@@ -38,25 +38,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "logInValidation.js",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\js\\logInValidation.js",
               "RelativeDocumentMoniker": "UserServiceRR\\wwwroot\\js\\logInValidation.js",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\js\\logInValidation.js",
               "RelativeToolTip": "UserServiceRR\\wwwroot\\js\\logInValidation.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-07-22T02:57:15.209Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "signIn.html",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\signIn.html",
+              "RelativeDocumentMoniker": "UserServiceRR\\wwwroot\\html\\signIn.html",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\signIn.html",
+              "RelativeToolTip": "UserServiceRR\\wwwroot\\html\\signIn.html",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-07-22T03:19:16.607Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -66,23 +76,15 @@
               "RelativeDocumentMoniker": "UserServiceRR\\wwwroot\\html\\signUp.html",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\signUp.html",
               "RelativeToolTip": "UserServiceRR\\wwwroot\\html\\signUp.html",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-07-22T03:19:11.634Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "signIn.html",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\signIn.html",
-              "RelativeDocumentMoniker": "UserServiceRR\\wwwroot\\html\\signIn.html",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\signIn.html",
-              "RelativeToolTip": "UserServiceRR\\wwwroot\\html\\signIn.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-07-22T03:19:16.607Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
               "$type": "Document",
@@ -107,37 +109,16 @@
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-22T03:10:44.326Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "602b213b-7e37-4c69-846e-2e4a640be899",
-        "Display": 1,
-        "X": 495,
-        "Y": 334,
-        "Width": 1108,
-        "Height": 578,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "styles.css",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\css\\styles.css",
               "RelativeDocumentMoniker": "UserServiceRR\\wwwroot\\css\\styles.css",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\css\\styles.css*",
-              "RelativeToolTip": "UserServiceRR\\wwwroot\\css\\styles.css*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\css\\styles.css",
+              "RelativeToolTip": "UserServiceRR\\wwwroot\\css\\styles.css",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAuwE0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-07-22T03:29:29.455Z",
               "EditorCaption": ""
