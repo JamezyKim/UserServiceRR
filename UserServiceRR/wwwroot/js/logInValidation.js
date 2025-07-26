@@ -1,13 +1,17 @@
-var ID;
 var birthDay;
 var phoneNumber;
 var email;
 var password;
 var logInUrl;
+var confirmPassword;
 
-//$(":input").inputmask();
+//function validateUser(int userNum) {
+//    email = document.getElementById("email").value;
+//    password = document.getElementById("password").value;
+//    for (let i = 0; i < userNum; i++) {
 
-//$("#phoneNumber").inputmask({ "mask": "(999) 999-9999" });
+//    }
+//}
 
 function getUserInfo() {
     email = document.getElementById("email").value;
@@ -16,7 +20,19 @@ function getUserInfo() {
     window.location.replace(logInUrl);
 }
 
+function checkPassword() {
+    password = document.getElementById("password").value;
+    confirmPassword = document.getElementById("confirmPassword").value;
+    if (password == confirmPassword) {
+        return true;
+    }
+    return false;
+}
+
 function addUserInfo() {
+    if (checkPassword() == false) {
+        return false;
+    }
     firstName = document.getElementById("firstName").value;
     lastName = document.getElementById("lastName").value;
     birthDay = document.getElementById("birthYear").value + "-" + document.getElementById("birthMonth").value + "-" + document.getElementById("birthDay").value;
@@ -42,11 +58,11 @@ function biMap() {
 }
 
 function encrypt() {
-    let inputText = document.getElementById('password').value;
+    let password = document.getElementById('password').value;
     let encryptText = '';
 
-    for (let i = 0; i < inputText.length; i++) {
-        let input = inputText[i];
+    for (let i = 0; i < password.length; i++) {
+        let input = password[i];
         encryptText += encryptMap[input] || input;
     }
 

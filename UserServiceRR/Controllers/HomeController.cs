@@ -78,6 +78,8 @@ public class HomeController : Controller
                     return "success";
                 }
             }
+
+
             //users = context.User.Where(b => b.UserName == email).ToList();
             return "Password does not match with the email";
         }

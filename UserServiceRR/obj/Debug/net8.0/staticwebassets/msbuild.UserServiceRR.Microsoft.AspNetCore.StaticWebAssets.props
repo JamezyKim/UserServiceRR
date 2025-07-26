@@ -210,8 +210,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>j6cs75gqpw</Fingerprint>
-      <Integrity>q0cpeUbHsupTUgktEOewCosTSBd3i8nJIFUtyRLZfNc=</Integrity>
+      <Fingerprint>fglworix1d</Fingerprint>
+      <Integrity>YQfILu8Pde++2y3dHbSTXU6NNDCJ6N+LevW43HYH3iE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\signUp.html'))</OriginalItemSpec>
@@ -372,8 +372,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>hmf4s3unfz</Fingerprint>
-      <Integrity>GVAXCsNJ08M/yug5IyojO9NKfCvPyRCx68eUpFxpej0=</Integrity>
+      <Fingerprint>3wjr16n4ys</Fingerprint>
+      <Integrity>jXmdcUg9eUKpJjF2bqfhOODDjb6ucahR5LDzMFszWkg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\logInValidation.js'))</OriginalItemSpec>
