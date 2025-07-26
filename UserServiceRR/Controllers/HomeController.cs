@@ -9,6 +9,26 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
     private readonly ApplicationDbContext _context;
+    DbContextOptions<ApplicationDbContext> contextOptions = new DbContextOptionsBuilder<ApplicationDbContext>().UseSqlServer(@"Server=localhost\SQLEXPRESS;Database=TestDB;ConnectRetryCount=0").Options;
+
+    private bool IsUserExits(string email)
+    {
+        ApplicationDbContext context = new ApplicationDbContext(contextOptions);
+        List<User> userList = new List<User>();
+
+        using (context)
+        {
+            var users = context.User.ToList();
+            foreach (var user in users)
+            {
+                if (user.Email == email)
+                {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
     public HomeController(ILogger<HomeController> logger, ApplicationDbContext context)
     {
@@ -33,42 +53,43 @@ public class HomeController : Controller
 
     public string LogIn(string email, string password) 
     {
-        var contextOptions = new DbContextOptionsBuilder<ApplicationDbContext>()
-        .UseSqlServer(@"Server=localhost\SQLEXPRESS;Database=TestDB;ConnectRetryCount=0")
-        .Options;
+        if(IsUserExits(email) == false)
+        {
+            return "Your email does not exist";
+        }
 
-        using var context2 = new ApplicationDbContext(contextOptions);
-        var userList = new List<User>();
-        using (var context = context2)
+        ApplicationDbContext context = new ApplicationDbContext(contextOptions);
+
+        var userInfo = new User();
+        using (context)
         {
             var users = context.User.ToList();
             foreach (var user in users)
             {
                 if (user.Email == email && user.Password == password)
                 {
-                    var userID = Guid.NewGuid();
-                    var userInfo = new User();
-                    userInfo.Email = email;
-                    userInfo.Password = password;
-                    userInfo.ID = userID;
-                    userInfo.CreatedByUserID = userID;
-                    userInfo.CreatedDate = DateTime.UtcNow;
-                    userInfo.ModifiedByUserID = userID;
-                    userInfo.ModifiedDate = DateTime.UtcNow;
-                    userList.Add(userInfo);
+                    userInfo.ID = user.ID;
+                    userInfo.Email = user.Email;
+                    userInfo.Password = user.Password;
+                    userInfo.CreatedByUserID = user.CreatedByUserID;
+                    userInfo.CreatedDate = user.CreatedDate;
+                    userInfo.ModifiedByUserID = user.ModifiedByUserID;
+                    userInfo.ModifiedDate = user.ModifiedDate;
                     return "success";
                 }
             }
             //users = context.User.Where(b => b.UserName == email).ToList();
-            return "login fail";
+            return "Password does not match with the email";
         }
     }
 
     public async Task<string> SignUp(string firstName, string lastName, string birthDay, string phoneNumber, string email, string password)
     {
-        var contextOptions = new DbContextOptionsBuilder<ApplicationDbContext>()
-            .UseSqlServer(@"Server=localhost\SQLEXPRESS;Database=TestDB;ConnectRetryCount=0")
-            .Options;
+
+        if(IsUserExits(email) == true)
+        {
+            return "Your account already exist";
+        }
 
         using (var context = new ApplicationDbContext(contextOptions))
         {
@@ -76,8 +97,6 @@ public class HomeController : Controller
             var userInfo = new User();
 
             userInfo.ID = userID;
-            userInfo.FirstName = firstName;
-            userInfo.LastName = lastName;
             userInfo.UserName = firstName + " " + lastName;
             userInfo.BirthDay = DateTime.Parse(birthDay);
             userInfo.PhoneNumber = phoneNumber;

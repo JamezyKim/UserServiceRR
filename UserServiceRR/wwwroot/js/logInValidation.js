@@ -5,6 +5,10 @@ var email;
 var password;
 var logInUrl;
 
+//$(":input").inputmask();
+
+//$("#phoneNumber").inputmask({ "mask": "(999) 999-9999" });
+
 function getUserInfo() {
     email = document.getElementById("email").value;
     password = document.getElementById("password").value;
@@ -13,7 +17,6 @@ function getUserInfo() {
 }
 
 function addUserInfo() {
-    ID = document.getElementById("ID").value;
     firstName = document.getElementById("firstName").value;
     lastName = document.getElementById("lastName").value;
     birthDay = document.getElementById("birthYear").value + "-" + document.getElementById("birthMonth").value + "-" + document.getElementById("birthDay").value;
@@ -21,7 +24,7 @@ function addUserInfo() {
     email = document.getElementById("email").value;
     password = document.getElementById("password").value;
 
-    signUpUrl = "https://localhost:7245/Home/SignUp?email=" + email + "&firstName=" + firstName + "&lastName=" + lastName + "&birthDay=" + birthDay + "&phoneNumber=" + phoneNumber + "&ID=" + ID +  "&password=" + password +  "";
+    signUpUrl = "https://localhost:7245/Home/SignUp?email=" + email + "&firstName=" + firstName + "&lastName=" + lastName + "&birthDay=" + birthDay + "&phoneNumber=" + phoneNumber +  "&password=" + password +  "";
     window.location.replace(signUpUrl);
 }
 
