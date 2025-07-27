@@ -130,7 +130,8 @@ public class HomeController : Controller
                 if (user.Email == email && user.BirthDay == birthDay && user.UserName == userName)
                 {
                     userInfo.PasswordHint = user.PasswordHint;
-                    return "Hint:";
+                    var passwordHint = user.PasswordHint;
+                    return "Your password hint: " + passwordHint;
                 }
             }
             return "No Nint";

@@ -390,8 +390,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7r5kxc5gj8</Fingerprint>
-      <Integrity>IxvuT3OKqztL1iB93HnF4VqYTRET9MuNeRErTL2H0qA=</Integrity>
+      <Fingerprint>jfz9emijz7</Fingerprint>
+      <Integrity>YR7rVHbfpDDS7ilRndyONwa6aMmOD7doIRBfx85frEQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\logInValidation.js'))</OriginalItemSpec>

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|c:\\users\\pc\\source\\repos\\userservicerr\\userservicerr\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|solutionrelative:userservicerr\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|c:\\users\\pc\\source\\repos\\userservicerr\\userservicerr\\wwwroot\\js\\loginvalidation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|solutionrelative:userservicerr\\wwwroot\\js\\loginvalidation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|c:\\users\\pc\\source\\repos\\userservicerr\\userservicerr\\wwwroot\\html\\forgetpassword.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|solutionrelative:userservicerr\\wwwroot\\html\\forgetpassword.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|c:\\users\\pc\\source\\repos\\userservicerr\\userservicerr\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|solutionrelative:userservicerr\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E53ACDD6-201E-424B-9822-8FB58BBAB5B9}|UserServiceRR\\UserServiceRR.csproj|c:\\users\\pc\\source\\repos\\userservicerr\\userservicerr\\wwwroot\\html\\signin.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -38,17 +38,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "logInValidation.js",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\js\\logInValidation.js",
               "RelativeDocumentMoniker": "UserServiceRR\\wwwroot\\js\\logInValidation.js",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\js\\logInValidation.js",
               "RelativeToolTip": "UserServiceRR\\wwwroot\\js\\logInValidation.js",
-              "ViewState": "AgIAAEcAAAAAAAAAAAA3wE0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwEsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-07-22T02:57:15.209Z",
               "IsPinned": true,
@@ -56,13 +56,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ForgetPassword.html",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\ForgetPassword.html",
               "RelativeDocumentMoniker": "UserServiceRR\\wwwroot\\html\\ForgetPassword.html",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\ForgetPassword.html",
               "RelativeToolTip": "UserServiceRR\\wwwroot\\html\\ForgetPassword.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-07-27T21:48:29.923Z",
               "IsPinned": true,
@@ -70,13 +70,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "UserServiceRR\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "UserServiceRR\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAADwv4YAAAANAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\Controllers\\HomeController.cs*",
+              "RelativeToolTip": "UserServiceRR\\Controllers\\HomeController.cs*",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAYwIUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-26T01:51:40.026Z",
               "IsPinned": true,
