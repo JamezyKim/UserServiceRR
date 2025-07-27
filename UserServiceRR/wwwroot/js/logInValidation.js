@@ -13,7 +13,6 @@ function validateUserBirthDay() {
     }
 }
 
-
 function getUserInfo() {
     email = document.getElementById("email").value;
     password = document.getElementById("password").value;
@@ -29,24 +28,6 @@ function checkPassword() {
     }
     alert("Passwords do not match");
     return false;
-}
-
-function addUserInfo() {
-    if (checkPassword() == false) {
-        return false;
-    }
-    if (validateUserBirthDay() == false) {
-        return false;
-    }
-    firstName = document.getElementById("firstName").value;
-    lastName = document.getElementById("lastName").value;
-    birthDay = document.getElementById("birthYear").value + "-" + document.getElementById("birthMonth").value + "-" + document.getElementById("birthDay").value;
-    phoneNumber = document.getElementById("phoneNumber").value;
-    email = document.getElementById("email").value;
-    password = document.getElementById("password").value;
-
-    signUpUrl = "https://localhost:7245/Home/SignUp?email=" + email + "&firstName=" + firstName + "&lastName=" + lastName + "&birthDay=" + birthDay + "&phoneNumber=" + phoneNumber +  "&password=" + password +  "";
-    window.location.replace(signUpUrl);
 }
 
 const encryptMap = {};
@@ -73,6 +54,7 @@ function encrypt() {
 
     document.getElementById('password').value = encryptText;
     console.log('Encrypted words: ', encryptText);
+    return encryptText;
 }
 
 function decrypt() {
@@ -86,6 +68,23 @@ function decrypt() {
     document.getElementById("password").value = decryptText;
     console.log("Decrypted text:", decryptText);
 }
+function addUserInfo() {
+    if (checkPassword() == false) {
+        return false;
+    }
+    if (validateUserBirthDay() == false) {
+        return false;
+    }
+    firstName = document.getElementById("firstName").value;
+    lastName = document.getElementById("lastName").value;
+    birthDay = document.getElementById("birthYear").value + "-" + document.getElementById("birthMonth").value + "-" + document.getElementById("birthDay").value;
+    phoneNumber = document.getElementById("phoneNumber").value;
+    email = document.getElementById("email").value;
+    //password = document.getElementById("password").value;
+    password = encrypt();
 
+    signUpUrl = "https://localhost:7245/Home/SignUp?email=" + email + "&firstName=" + firstName + "&lastName=" + lastName + "&birthDay=" + birthDay + "&phoneNumber=" + phoneNumber + "&password=" + password + "";
+    window.location.replace(signUpUrl);
+}
 
 biMap();
