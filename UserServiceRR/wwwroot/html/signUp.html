@@ -48,17 +48,30 @@
                 <input type="text" name="birthDay" id="birthDay" class="birthdayInput" placeholder="DD" maxlength="2" min="1" max="31">
                 <input type="text" name="birthYear" id="birthYear" class="birthdayInput" placeholder="YYYY" maxlength="4" min="1900" max="2025">
             </div>
+        </div><br>
+
+        <!--<label class="signInLabel" for="phoneNumber">Phone Number:</label><br><br>-->
+
+        <div>
+            <label for="phoneNumber">
+                Phone Number:
+            </label><br>
+            <input type="text" id="phoneNumber" name="phoneNumber" class="inputLabel" placeholder="ex: 604-123-4567"><br><br>
         </div>
 
-        <label class="signInLabel" for="phoneNumber">Phone Number:</label><br><br>
+        <script>
+            function formatPhoneNumber(value) {
+                value = value.replace(/\D/g, "");
+                value = value.substring(0, 10);
+                // limit to 10 digits
+                const phoneFormat =`${value.substring(0, 3)}-${value.substring(3, 6)}-${value.substring(6, 10)}`;
+                return phoneFormat;
+            }
 
-        <!--<div>
-        <label for="cc">Phone Number</label>
-         Set via HTML
-        <input id="cc" type="text" data-inputmask="'mask': '9999 9999 9999 9999'" />
-    </div>-->
-
-        <input type="text" id="phoneNumber" name="phoneNumber" class="inputLabel" placeholder="ex: 604-123-4567"><br><br>
+            document.getElementById("phoneNumber").addEventListener("input", function (e) {
+                e.target.value = formatPhoneNumber(e.target.value);
+            });
+        </script>
 
         <label class="signInLabel" for="email">Email:</label><br>
         <input type="email" id="email" name="email" class="inputLabel" placeholder="ex: abc@gmail.com"><br><br>
