@@ -123,14 +123,14 @@
     <StaticWebAssetEndpoint Include="_content/UserServiceRR/html/signIn.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\signIn.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bl8CKpcTWzZvn\u002BvzDEqopgtWo18W/STLQuKTPZPXrjI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1466"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022bl8CKpcTWzZvn\u002BvzDEqopgtWo18W/STLQuKTPZPXrjI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 25 Jul 2025 19:46:57 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UrpcFkSPtWsOR5Ig2VMoBPYRKXn/O0X\u002B5IewkGD7yDk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1450"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022UrpcFkSPtWsOR5Ig2VMoBPYRKXn/O0X\u002B5IewkGD7yDk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 27 Jul 2025 04:17:45 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/UserServiceRR/html/signIn.ivclf7ks0j.html">
+    <StaticWebAssetEndpoint Include="_content/UserServiceRR/html/signIn.y818iotyx8.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\signIn.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ivclf7ks0j"},{"Name":"integrity","Value":"sha256-bl8CKpcTWzZvn\u002BvzDEqopgtWo18W/STLQuKTPZPXrjI="},{"Name":"label","Value":"_content/UserServiceRR/html/signIn.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1466"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022bl8CKpcTWzZvn\u002BvzDEqopgtWo18W/STLQuKTPZPXrjI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 25 Jul 2025 19:46:57 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"y818iotyx8"},{"Name":"integrity","Value":"sha256-UrpcFkSPtWsOR5Ig2VMoBPYRKXn/O0X\u002B5IewkGD7yDk="},{"Name":"label","Value":"_content/UserServiceRR/html/signIn.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1450"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022UrpcFkSPtWsOR5Ig2VMoBPYRKXn/O0X\u002B5IewkGD7yDk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 27 Jul 2025 04:17:45 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/UserServiceRR/html/signUp.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\signUp.html'))</AssetFile>
@@ -243,14 +243,14 @@
     <StaticWebAssetEndpoint Include="_content/UserServiceRR/js/logInValidation.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\logInValidation.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NIxZjCUeZiSblKr8ffGSGxPEA8slA3yfaKW4RrqBnNo="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3166"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022NIxZjCUeZiSblKr8ffGSGxPEA8slA3yfaKW4RrqBnNo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 27 Jul 2025 03:07:04 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KZK9xulgwExPu6yqKiBvi9lYZbRg9ndeFu0YlsFdbVY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3156"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022KZK9xulgwExPu6yqKiBvi9lYZbRg9ndeFu0YlsFdbVY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 27 Jul 2025 04:17:42 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/UserServiceRR/js/logInValidation.o15dpo8ykz.js">
+    <StaticWebAssetEndpoint Include="_content/UserServiceRR/js/logInValidation.tv3qkiqh1g.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\logInValidation.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o15dpo8ykz"},{"Name":"integrity","Value":"sha256-NIxZjCUeZiSblKr8ffGSGxPEA8slA3yfaKW4RrqBnNo="},{"Name":"label","Value":"_content/UserServiceRR/js/logInValidation.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3166"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022NIxZjCUeZiSblKr8ffGSGxPEA8slA3yfaKW4RrqBnNo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 27 Jul 2025 03:07:04 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tv3qkiqh1g"},{"Name":"integrity","Value":"sha256-KZK9xulgwExPu6yqKiBvi9lYZbRg9ndeFu0YlsFdbVY="},{"Name":"label","Value":"_content/UserServiceRR/js/logInValidation.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3156"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022KZK9xulgwExPu6yqKiBvi9lYZbRg9ndeFu0YlsFdbVY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 27 Jul 2025 04:17:42 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/UserServiceRR/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

@@ -2,7 +2,6 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using UserServiceRR.Models;
 using Microsoft.EntityFrameworkCore;
-
 namespace UserServiceRR.Controllers;
 
 public class HomeController : Controller
@@ -30,8 +29,6 @@ public class HomeController : Controller
         return false;
     }
 
-
-
     public HomeController(ILogger<HomeController> logger, ApplicationDbContext context)
     {
         _logger = logger;
@@ -52,23 +49,6 @@ public class HomeController : Controller
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
-
-    //public IActionResult countUserNum()
-    //{
-    //    int userNum = 0;
-    //    ApplicationDbContext context = new ApplicationDbContext(contextOptions);
-
-    //    var userInfo = new User();
-    //    using (context)
-    //    {
-    //        var users = context.User.ToList();
-    //        foreach (var user in users)
-    //        {
-    //            userNum++;
-    //        }
-    //    }
-    //    return Json(userNum);
-    //}
 
     public int countUser()
     {
@@ -114,7 +94,6 @@ public class HomeController : Controller
         }
 
         ApplicationDbContext context = new ApplicationDbContext(contextOptions);
-
         var userInfo = new User();
         using (context)
         {
@@ -140,12 +119,10 @@ public class HomeController : Controller
 
     public async Task<string> SignUp(string firstName, string lastName, string birthDay, string phoneNumber, string email, string password)
     {
-
         if(IsUserExits(email) == true)
         {
             return "Your account already exist";
         }
-
         using (var context = new ApplicationDbContext(contextOptions))
         {
             var userID = Guid.NewGuid();

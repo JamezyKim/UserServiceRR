@@ -13,12 +13,7 @@ function validateUserBirthDay() {
     }
 }
 
-function getUserInfo() {
-    email = document.getElementById("email").value;
-    password = document.getElementById("password").value;
-    logInUrl = "https://localhost:7245/Home/LogIn?email=" + email+ "&password=" + password + "";
-    window.location.replace(logInUrl);
-}
+
 
 function checkPassword() {
     password = document.getElementById("password").value;
@@ -42,7 +37,6 @@ function biMap() {
         decryptMap[reversedText[i]] = plainText[i];
     }
 }
-
 function encrypt() {
     let password = document.getElementById('password').value;
     let encryptText = '';
@@ -67,6 +61,12 @@ function decrypt() {
     }
     document.getElementById("password").value = decryptText;
     console.log("Decrypted text:", decryptText);
+}
+function getUserInfo() {
+    email = document.getElementById("email").value;
+    var encryptedPassword = encrypt()
+    logInUrl = "https://localhost:7245/Home/LogIn?email=" + email + "&password=" + encryptedPassword + "";
+    window.location.replace(logInUrl);
 }
 function addUserInfo() {
     if (checkPassword() == false) {
