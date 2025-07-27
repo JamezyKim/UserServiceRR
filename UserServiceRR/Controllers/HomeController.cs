@@ -109,6 +109,7 @@ public class HomeController : Controller
                     userInfo.CreatedDate = user.CreatedDate;
                     userInfo.ModifiedByUserID = user.ModifiedByUserID;
                     userInfo.ModifiedDate = user.ModifiedDate;
+                    userInfo.PasswordHint = user.PasswordHint;
                     return "success";
                 }
             }
@@ -117,7 +118,7 @@ public class HomeController : Controller
         }
     }
 
-    public async Task<string> SignUp(string firstName, string lastName, string birthDay, string phoneNumber, string email, string password)
+    public async Task<string> SignUp(string firstName, string lastName, string birthDay, string phoneNumber, string email, string password, string PasswordHint)
     {
         if(IsUserExits(email) == true)
         {
@@ -139,6 +140,7 @@ public class HomeController : Controller
             userInfo.CreatedDate = DateTime.UtcNow;
             userInfo.ModifiedByUserID = userInfo.ID;
             userInfo.ModifiedDate = DateTime.UtcNow;
+            userInfo.PasswordHint = PasswordHint;
 
             context.User.Add(userInfo);
             await context.SaveChangesAsync();

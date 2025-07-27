@@ -4,6 +4,7 @@ var email;
 var password;
 var logInUrl;
 var confirmPassword;
+var passwordHint;
 function validateUserBirthDay() {
     const day = parseInt(document.getElementById("birthDay").value);
     const year = parseInt(document.getElementById("birthYear").value);
@@ -12,8 +13,6 @@ function validateUserBirthDay() {
         return false;
     }
 }
-
-
 
 function checkPassword() {
     password = document.getElementById("password").value;
@@ -80,10 +79,10 @@ function addUserInfo() {
     birthDay = document.getElementById("birthYear").value + "-" + document.getElementById("birthMonth").value + "-" + document.getElementById("birthDay").value;
     phoneNumber = document.getElementById("phoneNumber").value;
     email = document.getElementById("email").value;
-    //password = document.getElementById("password").value;
     password = encrypt();
+    passwordHint = document.getElementById("passwordHint").value;
 
-    signUpUrl = "https://localhost:7245/Home/SignUp?email=" + email + "&firstName=" + firstName + "&lastName=" + lastName + "&birthDay=" + birthDay + "&phoneNumber=" + phoneNumber + "&password=" + password + "";
+    signUpUrl = "https://localhost:7245/Home/SignUp?email=" + email + "&firstName=" + firstName + "&lastName=" + lastName + "&birthDay=" + birthDay + "&phoneNumber=" + phoneNumber + "&password=" + password + "&passwordHint=" + passwordHint + "";
     window.location.replace(signUpUrl);
 }
 

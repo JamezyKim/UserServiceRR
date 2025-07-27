@@ -64,7 +64,7 @@
                 value = value.replace(/\D/g, "");
                 value = value.substring(0, 10);
                 // limit to 10 digits
-                const phoneFormat =`${value.substring(0, 3)}-${value.substring(3, 6)}-${value.substring(6, 10)}`;
+                const phoneFormat = `${value.substring(0, 3)}-${value.substring(3, 6)}-${value.substring(6, 10)}`;
                 return phoneFormat;
             }
 
@@ -81,6 +81,9 @@
 
         <label class="signInLabel" for="confirmPassword">ConfirmPassword:</label><br>
         <input type="password" id="confirmPassword" name="confirmPassword" class="inputLabel"><br><br><br>
+
+        <label class="signInLabel" for="passwordHint">Password Hint:</label><br>
+        <input type="text" id="passwordHint" name="passwordHint" class="inputLabel"><br><br><br>
 
         <input type="submit" id="submitButton" name="submit" class="inputLabel" value="Create Account"><br><br>
     </form>
