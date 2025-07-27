@@ -118,6 +118,25 @@ public class HomeController : Controller
         }
     }
 
+    public string ForgetPassword(string email, DateTime birthDay, string userName)
+    {
+        ApplicationDbContext context = new ApplicationDbContext(contextOptions);
+        var userInfo = new User();
+        using (context)
+        {
+            var users = context.User.ToList();
+            foreach (var user in users)
+            {
+                if (user.Email == email && user.BirthDay == birthDay && user.UserName == userName)
+                {
+                    userInfo.PasswordHint = user.PasswordHint;
+                    return "Hint:";
+                }
+            }
+            return "No Nint";
+        }
+    }
+
     public async Task<string> SignUp(string firstName, string lastName, string birthDay, string phoneNumber, string email, string password, string PasswordHint)
     {
         if(IsUserExits(email) == true)

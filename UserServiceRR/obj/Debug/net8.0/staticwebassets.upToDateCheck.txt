@@ -4,6 +4,7 @@ wwwroot\favicon.ico
 wwwroot\html\Baby.html
 wwwroot\html\Clothing.html
 wwwroot\html\Electronics.html
+wwwroot\html\ForgetPassword.html
 wwwroot\html\Furniture.html
 wwwroot\html\Grocery.html
 wwwroot\html\Home.html

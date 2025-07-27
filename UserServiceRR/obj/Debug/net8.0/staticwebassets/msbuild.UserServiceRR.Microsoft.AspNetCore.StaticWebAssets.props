@@ -108,6 +108,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\Electronics.html'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\ForgetPassword.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>UserServiceRR</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/UserServiceRR</BasePath>
+      <RelativePath>html/ForgetPassword.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>plgu7gngxa</Fingerprint>
+      <Integrity>czlFdzU9KBG3kjpLlulO+hbb0NlHFuf4vr2hmV0rY7A=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\ForgetPassword.html'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\Furniture.html'))">
       <SourceType>Package</SourceType>
       <SourceId>UserServiceRR</SourceId>
@@ -192,8 +210,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>y818iotyx8</Fingerprint>
-      <Integrity>UrpcFkSPtWsOR5Ig2VMoBPYRKXn/O0X+5IewkGD7yDk=</Integrity>
+      <Fingerprint>0rsezp52ar</Fingerprint>
+      <Integrity>9J+cRnp5puaG+YcwckTKEUcANiRaGg6oSHoWqNBJYfU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\signIn.html'))</OriginalItemSpec>
@@ -372,8 +390,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>g6mla9pywc</Fingerprint>
-      <Integrity>iIFMoTspwLAh9M6ltRkxoUhaoQoUJOg0V2wPXMMenME=</Integrity>
+      <Fingerprint>7r5kxc5gj8</Fingerprint>
+      <Integrity>IxvuT3OKqztL1iB93HnF4VqYTRET9MuNeRErTL2H0qA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\logInValidation.js'))</OriginalItemSpec>

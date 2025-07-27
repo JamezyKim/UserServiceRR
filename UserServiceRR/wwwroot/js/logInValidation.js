@@ -1,3 +1,4 @@
+var userName;
 var birthDay;
 var phoneNumber;
 var email;
@@ -67,6 +68,16 @@ function getUserInfo() {
     logInUrl = "https://localhost:7245/Home/LogIn?email=" + email + "&password=" + encryptedPassword + "";
     window.location.replace(logInUrl);
 }
+
+function forgetPassword() {
+    email = document.getElementById("email").value;
+    firstName = document.getElementById("firstName").value;
+    lastName = document.getElementById("lastName").value;
+    birthDay = document.getElementById("birthYear").value + "-" + document.getElementById("birthMonth").value + "-" + document.getElementById("birthDay").value;
+    forgetPasswordUrl = "https://localhost:7245/Home/ForgetPassword?email=" + email + "&birthDay=" + birthDay + "&userName=" + userName + "";
+    window.location.replace(forgetPasswordUrl);
+}
+
 function addUserInfo() {
     if (checkPassword() == false) {
         return false;
