@@ -53,24 +53,7 @@ public class HomeController : Controller
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 
-    public IActionResult countUserNum()
-    {
-        int userNum = 0;
-        ApplicationDbContext context = new ApplicationDbContext(contextOptions);
-
-        var userInfo = new User();
-        using (context)
-        {
-            var users = context.User.ToList();
-            foreach (var user in users)
-            {
-                userNum++;
-            }
-        }
-        return Json(userNum);
-    }
-
-    //public int countUser()
+    //public IActionResult countUserNum()
     //{
     //    int userNum = 0;
     //    ApplicationDbContext context = new ApplicationDbContext(contextOptions);
@@ -84,12 +67,29 @@ public class HomeController : Controller
     //            userNum++;
     //        }
     //    }
-    //    return userNum;
+    //    return Json(userNum);
     //}
+
+    public int countUser()
+    {
+        int userNum = 0;
+        ApplicationDbContext context = new ApplicationDbContext(contextOptions);
+
+        var userInfo = new User();
+        using (context)
+        {
+            var users = context.User.ToList();
+            foreach (var user in users)
+            {
+                userNum++;
+            }
+        }
+        return userNum;
+    }
 
     public bool validateUserExist()
     {
-        validateUser()
+      
         return false;
     }
 

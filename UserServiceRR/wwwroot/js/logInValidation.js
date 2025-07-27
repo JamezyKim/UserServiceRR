@@ -4,12 +4,12 @@ var email;
 var password;
 var logInUrl;
 var confirmPassword;
-
-function validateUser(int userNum) {
-    email = document.getElementById("email").value;
-    password = document.getElementById("password").value;
-    for (let i = 0; i < userNum; i++) {
-
+function validateUserBirthDay() {
+    const day = parseInt(document.getElementById("birthDay").value);
+    const year = parseInt(document.getElementById("birthYear").value);
+    if ((0 > day || day > 31) || (year < 1900 || year > 2026) || (isNaN(day) || isNaN(year))) {
+        alert("Enter valide birthday");
+        return false;
     }
 }
 
@@ -26,12 +26,15 @@ function checkPassword() {
     if (password == confirmPassword) {
         return true;
     }
+    alert("Passwords do not match");
     return false;
 }
 
 function addUserInfo() {
     if (checkPassword() == false) {
-        alert("Passwords do not match")
+        return false;
+    }
+    if (validateUserBirthDay() == false) {
         return false;
     }
     firstName = document.getElementById("firstName").value;
