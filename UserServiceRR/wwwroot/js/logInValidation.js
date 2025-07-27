@@ -5,13 +5,13 @@ var password;
 var logInUrl;
 var confirmPassword;
 
-//function validateUser(int userNum) {
-//    email = document.getElementById("email").value;
-//    password = document.getElementById("password").value;
-//    for (let i = 0; i < userNum; i++) {
+function validateUser(int userNum) {
+    email = document.getElementById("email").value;
+    password = document.getElementById("password").value;
+    for (let i = 0; i < userNum; i++) {
 
-//    }
-//}
+    }
+}
 
 function getUserInfo() {
     email = document.getElementById("email").value;
@@ -31,6 +31,7 @@ function checkPassword() {
 
 function addUserInfo() {
     if (checkPassword() == false) {
+        alert("Passwords do not match")
         return false;
     }
     firstName = document.getElementById("firstName").value;

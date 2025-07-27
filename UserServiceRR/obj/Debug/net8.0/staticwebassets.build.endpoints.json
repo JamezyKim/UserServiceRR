@@ -1643,7 +1643,7 @@
       ]
     },
     {
-      "Route": "html/signUp.fglworix1d.html",
+      "Route": "html/signUp.1mplb68kju.html",
       "AssetFile": "html/signUp.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1657,7 +1657,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3341"
+          "Value": "3646"
         },
         {
           "Name": "Content-Type",
@@ -1665,21 +1665,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YQfILu8Pde++2y3dHbSTXU6NNDCJ6N+LevW43HYH3iE=\""
+          "Value": "\"6bfp4zaZhdFt2005jmZgp8t5QV/EGm77DT7vGgXAysc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 22:58:46 GMT"
+          "Value": "Sat, 26 Jul 2025 23:52:06 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fglworix1d"
+          "Value": "1mplb68kju"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-YQfILu8Pde++2y3dHbSTXU6NNDCJ6N+LevW43HYH3iE="
+          "Value": "sha256-6bfp4zaZhdFt2005jmZgp8t5QV/EGm77DT7vGgXAysc="
         },
         {
           "Name": "label",
@@ -1702,7 +1702,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3341"
+          "Value": "3646"
         },
         {
           "Name": "Content-Type",
@@ -1710,17 +1710,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YQfILu8Pde++2y3dHbSTXU6NNDCJ6N+LevW43HYH3iE=\""
+          "Value": "\"6bfp4zaZhdFt2005jmZgp8t5QV/EGm77DT7vGgXAysc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 22:58:46 GMT"
+          "Value": "Sat, 26 Jul 2025 23:52:06 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YQfILu8Pde++2y3dHbSTXU6NNDCJ6N+LevW43HYH3iE="
+          "Value": "sha256-6bfp4zaZhdFt2005jmZgp8t5QV/EGm77DT7vGgXAysc="
         }
       ]
     },
@@ -1807,7 +1807,7 @@
       ]
     },
     {
-      "Route": "js/logInValidation.3wjr16n4ys.js",
+      "Route": "js/logInValidation.bfukav8oc3.js",
       "AssetFile": "js/logInValidation.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1821,7 +1821,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2875"
+          "Value": "2916"
         },
         {
           "Name": "Content-Type",
@@ -1829,21 +1829,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jXmdcUg9eUKpJjF2bqfhOODDjb6ucahR5LDzMFszWkg=\""
+          "Value": "\"+YJQPoLHbcvEUQedGbmdjSy0eBS5g60Qp+xX4gW8QZM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 23:01:30 GMT"
+          "Value": "Sat, 26 Jul 2025 23:26:32 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3wjr16n4ys"
+          "Value": "bfukav8oc3"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jXmdcUg9eUKpJjF2bqfhOODDjb6ucahR5LDzMFszWkg="
+          "Value": "sha256-+YJQPoLHbcvEUQedGbmdjSy0eBS5g60Qp+xX4gW8QZM="
         },
         {
           "Name": "label",
@@ -1866,7 +1866,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2875"
+          "Value": "2916"
         },
         {
           "Name": "Content-Type",
@@ -1874,17 +1874,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jXmdcUg9eUKpJjF2bqfhOODDjb6ucahR5LDzMFszWkg=\""
+          "Value": "\"+YJQPoLHbcvEUQedGbmdjSy0eBS5g60Qp+xX4gW8QZM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 23:01:30 GMT"
+          "Value": "Sat, 26 Jul 2025 23:26:32 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jXmdcUg9eUKpJjF2bqfhOODDjb6ucahR5LDzMFszWkg="
+          "Value": "sha256-+YJQPoLHbcvEUQedGbmdjSy0eBS5g60Qp+xX4gW8QZM="
         }
       ]
     },
