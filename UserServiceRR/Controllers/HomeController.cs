@@ -87,9 +87,22 @@ public class HomeController : Controller
         return userNum;
     }
 
-    public bool validateUserExist()
-    {
-      
+    public bool validateUser(string email, string password){
+        ApplicationDbContext context = new ApplicationDbContext(contextOptions);
+
+        var userInfo = new User();
+        using (context)
+        {
+            var users = context.User.ToList();
+            foreach (var user in users)
+            {
+                if (user.Email == email && user.Password == password)
+                {
+                    return true;
+                }
+            }
+            //users = context.User.Where(b => b.UserName == email).ToList();
+        }
         return false;
     }
 
@@ -120,8 +133,6 @@ public class HomeController : Controller
                     return "success";
                 }
             }
-
-
             //users = context.User.Where(b => b.UserName == email).ToList();
             return "Password does not match with the email";
         }
