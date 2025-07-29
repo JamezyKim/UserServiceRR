@@ -7,9 +7,9 @@ var logInUrl;
 var confirmPassword;
 var passwordHint;
 function validateUserBirthDay() {
-    const day = parseInt(document.getElementById("birthDay").value);
-    const year = parseInt(document.getElementById("birthYear").value);
-    if ((0 > day || day > 31) || (year < 1900 || year > 2026) || (isNaN(day) || isNaN(year))) {
+    const day = parseInt(document.getElementsByClassName("birthDay").value);
+    const year = parseInt(document.getElementsByClassName("birthYear").value);
+    if ((0 >= day || day > 31) || (year < 1900 || year > 2026) || (isNaN(day) || isNaN(year))) {
         alert("Enter valide birthday");
         return false;
     }
@@ -80,22 +80,60 @@ function forgetPassword() {
 }
 
 function addUserInfo() {
+    birthDay = formatBirthDayWithZero(document.getElementsByClassName("birthDay").value);
     if (checkPassword() == false) {
         return false;
     }
     if (validateUserBirthDay() == false) {
         return false;
     }
-    firstName = document.getElementById("firstName").value;
-    lastName = document.getElementById("lastName").value;
-    birthDay = document.getElementById("birthYear").value + "-" + document.getElementById("birthMonth").value + "-" + document.getElementById("birthDay").value;
+    firstName = document.getElementsByClassName("firstName").value;
+    lastName = document.getElementsByClassName("lastName").value;
+    birthDay = document.getElementsByClassName("birthYear").value + "-" + document.getElementsByClassName("birthMonth").value + "-" + birthDay;
     phoneNumber = document.getElementById("phoneNumber").value;
-    email = document.getElementById("email").value;
+    email = document.getElementsByClassName("email").value;
     password = encrypt();
     passwordHint = document.getElementById("passwordHint").value;
 
     signUpUrl = "https://localhost:7245/Home/SignUp?email=" + email + "&firstName=" + firstName + "&lastName=" + lastName + "&birthDay=" + birthDay + "&phoneNumber=" + phoneNumber + "&password=" + password + "&passwordHint=" + passwordHint + "";
     window.location.replace(signUpUrl);
 }
+
+function formatPhoneNumber(value) {
+     value = value.replace(/\D/g, "");
+     value = value.substring(0, 10);
+        // limit to 10 digits
+     const phoneFormat = `${value.substring(0, 3)}-${value.substring(3, 6)}-${value.substring(6, 10)}`;
+     return phoneFormat;
+}
+
+document.getElementsByClassName("phoneNumber").addEventListener("input", function (e) {
+   e.target.value = formatPhoneNumber(e.target.value);
+});
+
+function formatBirthDayWithZero(value) {
+    var tempVar;
+    tempVar = value * 1;
+    
+    if (tempVar < 10) {
+        value = 0 + value;
+    }
+    return value;
+}
+
+function formatBirthDay(value) {
+    value = value.replace(/\D/g, "");
+    value = value.substring(0, 2);
+    return value;
+}
+
+
+
+document.getElementsByClassName("birthDay").addEventListener("input", function (e) {
+    e.target.value = formatBirthDay(e.target.value);
+});
+
+
+
 
 biMap();

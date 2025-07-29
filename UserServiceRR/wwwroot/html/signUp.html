@@ -4,7 +4,6 @@
 <head>
     <link rel="stylesheet" href="/css/styles.css">
     <script src="/js/jquery-3.7.1.min.js"></script>
-    <script src="/js/logInValidation.js"></script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,17 +11,18 @@
 <!------------->
 
 <body class="whiteBodySet">
+
     <p>General Information</p>
     <form class="signInForm" onsubmit="addUserInfo(); return false">
         <div class="nameInputGroup">
             <div class="inputContainer">
                 <label class="signInLabel" for="firstName">First Name:</label><br>
-                <input type="text" id="firstName" name="firstName" class="inputLabel">
+                <input type="text" id="firstName" name="firstName" class="inputLabel firstName">
             </div>
 
             <div class="inputContainer">
                 <label class="signInLabel" for="lastName">Last Name:</label><br>
-                <input type="text" id="lastName" name="lastName" class="inputLabel">
+                <input type="text" id="lastName" name="lastName" class="inputLabel lastName">
             </div>
         </div>
 
@@ -45,8 +45,8 @@
                     <option value="12">December</option>
                 </select>
 
-                <input type="text" name="birthDay" id="birthDay" class="birthdayInput" placeholder="DD" maxlength="2" min="1" max="31">
-                <input type="text" name="birthYear" id="birthYear" class="birthdayInput" placeholder="YYYY" maxlength="4" min="1900" max="2025">
+                <input type="text" name="birthDay" id="birthDay" class="birthdayInput birthDay" placeholder="DD" maxlength="2" min="1" max="31">
+                <input type="text" name="birthYear" id="birthYear" class="birthdayInput birthYear" placeholder="YYYY" maxlength="4" min="1900" max="2025">
             </div>
         </div><br>
 
@@ -59,22 +59,9 @@
             <input type="text" id="phoneNumber" name="phoneNumber" class="inputLabel" placeholder="ex: 604-123-4567"><br><br>
         </div>
 
-        <script>
-            function formatPhoneNumber(value) {
-                value = value.replace(/\D/g, "");
-                value = value.substring(0, 10);
-                // limit to 10 digits
-                const phoneFormat = `${value.substring(0, 3)}-${value.substring(3, 6)}-${value.substring(6, 10)}`;
-                return phoneFormat;
-            }
-
-            document.getElementById("phoneNumber").addEventListener("input", function (e) {
-                e.target.value = formatPhoneNumber(e.target.value);
-            });
-        </script>
 
         <label class="signInLabel" for="email">Email:</label><br>
-        <input type="email" id="email" name="email" class="inputLabel" placeholder="ex: abc@gmail.com"><br><br>
+        <input type="email" id="email" name="email" class="inputLabel email" placeholder="ex: abc@gmail.com"><br><br>
 
         <label class="signInLabel" for="password">Password:</label><br>
         <input type="password" id="password" name="password" class="inputLabel"><br><br><br>
@@ -87,5 +74,6 @@
 
         <input type="submit" id="submitButton" name="submit" class="inputLabel" value="Create Account"><br><br>
     </form>
+    <script src="/js/logInValidation.js"></script>
 </body>
 </html>
