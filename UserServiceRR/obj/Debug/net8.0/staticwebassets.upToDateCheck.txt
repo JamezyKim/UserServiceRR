@@ -9,6 +9,7 @@ wwwroot\html\Furniture.html
 wwwroot\html\Grocery.html
 wwwroot\html\Home.html
 wwwroot\html\homePage.html
+wwwroot\html\Permission.html
 wwwroot\html\signIn.html
 wwwroot\html\signUp.html
 wwwroot\Images\Baby.webp

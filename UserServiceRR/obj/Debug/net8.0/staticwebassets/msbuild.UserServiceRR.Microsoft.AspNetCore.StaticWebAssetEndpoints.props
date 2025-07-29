@@ -132,6 +132,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"i7rkhs415r"},{"Name":"integrity","Value":"sha256-QhhYOMBsggLHpbogKD5kM/pR\u002BnfOqjciOuT0JkAjDz0="},{"Name":"label","Value":"_content/UserServiceRR/html/homePage.html"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1612"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022QhhYOMBsggLHpbogKD5kM/pR\u002BnfOqjciOuT0JkAjDz0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 27 Jul 2025 19:24:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/UserServiceRR/html/Permission.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\Permission.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vp9Vkn7hYtpTSmV5xJXv6epAE\u002Bi/2c4oCsn5ez0YNfg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"122"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022vp9Vkn7hYtpTSmV5xJXv6epAE\u002Bi/2c4oCsn5ez0YNfg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Jul 2025 18:32:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/UserServiceRR/html/Permission.m6t8iqaf5f.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\Permission.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"m6t8iqaf5f"},{"Name":"integrity","Value":"sha256-vp9Vkn7hYtpTSmV5xJXv6epAE\u002Bi/2c4oCsn5ez0YNfg="},{"Name":"label","Value":"_content/UserServiceRR/html/Permission.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"122"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022vp9Vkn7hYtpTSmV5xJXv6epAE\u002Bi/2c4oCsn5ez0YNfg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Jul 2025 18:32:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/UserServiceRR/html/signIn.0rsezp52ar.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\signIn.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
