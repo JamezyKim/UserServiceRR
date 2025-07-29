@@ -134,7 +134,7 @@ public class HomeController : Controller
                     return "Your password hint: " + passwordHint;
                 }
             }
-            return "No Nint";
+            return "No Hint";
         }
     }
 

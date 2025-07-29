@@ -6,9 +6,13 @@ var password;
 var logInUrl;
 var confirmPassword;
 var passwordHint;
+var day;
+var year;
+var month;
+
 function validateUserBirthDay() {
-    const day = parseInt(document.getElementsByClassName("birthDay").value);
-    const year = parseInt(document.getElementsByClassName("birthYear").value);
+    day = parseInt(document.getElementById("birthDaySignUp").value || document.getElementById("birthDayForgetPassword").value);
+    year = parseInt(document.getElementById("birthYearSignUp").value || document.getElementById("birthYearForgetPassword").value);
     if ((0 >= day || day > 31) || (year < 1900 || year > 2026) || (isNaN(day) || isNaN(year))) {
         alert("Enter valide birthday");
         return false;
@@ -70,28 +74,34 @@ function getUserInfo() {
 }
 
 function forgetPassword() {
-    email = document.getElementById("email").value;
-    firstName = document.getElementById("firstName").value;
-    lastName = document.getElementById("lastName").value;
+    email = document.getElementById("emailSignUp") || document.getElementById("emailForgetPassword");
+    email = email.value;
+    firstName = document.getElementById("firstNameSignUp") || document.getElementById("firstNameForgetPassword");
+    firstName = firstName.value;
+    lastName = document.getElementById("lastNameSignUp") || document.getElementById("lastNameForgetPassword");
+    lastName = lastName.value;
     userName = firstName + " " + lastName;
-    birthDay = document.getElementById("birthYear").value + "-" + document.getElementById("birthMonth").value + "-" + document.getElementById("birthDay").value;
+    //birthDay = (document.getElementById("birthYearSignUp") || document.getElementById("birthYearForgetPassword")) + "-" + (document.getElementById("birthMonthSignUp") || document.getElementById("birthMonthForgetPassword")) + "-" + formatBirthDayWithZero(document.getElementById("birthDaySignUp")) || formatBirthDayWithZero(document.getElementById("birthDayForgetPassword"));
+    year = document.getElementById("birthYearSignUp") || document.getElementById("birthYearForgetPassword");
+    month = document.getElementById("birthMonth");
+    day = document.getElementById("birthDaySignUp") || document.getElementById("birthDayForgetPassword");
+    birthDay = year.value + "-" + month.value + "-" + formatBirthDayWithZero(day.value);
     forgetPasswordUrl = "https://localhost:7245/Home/ForgetPassword?email=" + email + "&birthDay=" + birthDay + "&userName=" + userName + "";
     window.location.replace(forgetPasswordUrl);
 }
 
 function addUserInfo() {
-    birthDay = formatBirthDayWithZero(document.getElementsByClassName("birthDay").value);
     if (checkPassword() == false) {
         return false;
     }
     if (validateUserBirthDay() == false) {
         return false;
     }
-    firstName = document.getElementsByClassName("firstName").value;
-    lastName = document.getElementsByClassName("lastName").value;
-    birthDay = document.getElementsByClassName("birthYear").value + "-" + document.getElementsByClassName("birthMonth").value + "-" + birthDay;
+    firstName = document.getElementById("firstNameSignUp").value || document.getElementById("firstNameForgetPassword").value;
+    lastName = document.getElementById("lastNameSignUp").value || document.getElementById("lastNameSignUp").value;
+    birthDay = (document.getElementById("birthYearSignUp").value || document.getElementById("birthYearForgetPassword").value) + "-" + (document.getElementById("birthMonthSignUp").value || document.getElementById("birthMonthForgetPassword").value) + "-" + formatBirthDayWithZero(document.getElementById("birthDaySignUp").value) || formatBirthDayWithZero(document.getElementById("birthDayForgetPassword").value);
     phoneNumber = document.getElementById("phoneNumber").value;
-    email = document.getElementsByClassName("email").value;
+    email = document.getElementById("emailSignUp").value || document.getElementById("emailForgetPassword").value;
     password = encrypt();
     passwordHint = document.getElementById("passwordHint").value;
 
@@ -107,9 +117,12 @@ function formatPhoneNumber(value) {
      return phoneFormat;
 }
 
-document.getElementsByClassName("phoneNumber").addEventListener("input", function (e) {
-   e.target.value = formatPhoneNumber(e.target.value);
-});
+const phoneNumberInput = document.getElementById("phoneNumber");
+if (phoneNumberInput) {
+    phoneNumberInput.addEventListener("input", function (e) {
+        e.target.value = formatPhoneNumber(e.target.value);
+    });
+}
 
 function formatBirthDayWithZero(value) {
     var tempVar;
@@ -129,10 +142,19 @@ function formatBirthDay(value) {
 
 
 
-document.getElementsByClassName("birthDay").addEventListener("input", function (e) {
-    e.target.value = formatBirthDay(e.target.value);
-});
+const birthDaySignUp = document.getElementById("birthDaySignUp");
+if (birthDaySignUp) {
+    birthDaySignUp.addEventListener("input", function (e) {
+        e.target.value = formatBirthDay(e.target.value);
+    });
+}
 
+const birthDayForgetPassword = document.getElementById("birthDayForgetPassword");
+if (birthDayForgetPassword) {
+    birthDayForgetPassword.addEventListener("input", function (e) {
+        e.target.value = formatBirthDay(e.target.value);
+    });
+}
 
 
 

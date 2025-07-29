@@ -120,8 +120,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>76iumz00aa</Fingerprint>
-      <Integrity>gQZg8QgnU7fore4QoGWgKoAl66d8BEmewD1JV8Cftx8=</Integrity>
+      <Fingerprint>cvqon4ihg1</Fingerprint>
+      <Integrity>CAXfZURaxo9J2UL0dSOLWVx7ymn14UxX7zyKXxHv2T4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\ForgetPassword.html'))</OriginalItemSpec>
@@ -228,8 +228,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3syjgib7ge</Fingerprint>
-      <Integrity>LcHGX3XzeQ/beZ0QEZrNkdgwQYGp8um7JSi2new+dNY=</Integrity>
+      <Fingerprint>9futo7x7li</Fingerprint>
+      <Integrity>RaN4IZ12izVLE3j7jApu85TmVwYqXJYDJYPQAjG6Gv0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\signUp.html'))</OriginalItemSpec>
@@ -390,8 +390,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>rhwv3doi9b</Fingerprint>
-      <Integrity>wRLz2y1k/tz+z4KsP173/KsBD1sz7K3Ej9rLhmVFT20=</Integrity>
+      <Fingerprint>vdlsda7w07</Fingerprint>
+      <Integrity>vZ+m4qn8BQe0/pIO4ghYjurWd82OvI49SSaQIuKBANg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\logInValidation.js'))</OriginalItemSpec>
