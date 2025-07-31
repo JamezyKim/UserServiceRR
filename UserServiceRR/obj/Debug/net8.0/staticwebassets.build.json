@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "S0fHeTVuNTf6Z6n7vGC2oqXJGHtK0IOBW1U6t3SUJsI=",
+  "Hash": "FGR4rlZG64ONWBaWSduddpbxH5myr6MpeXZPz7UIzSw=",
   "Source": "UserServiceRR",
   "BasePath": "_content/UserServiceRR",
   "Mode": "Default",
@@ -556,8 +556,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "0gcmwkwtsg",
-      "Integrity": "gOcrMxQTIvTXuFqn56WsAO4W0+wjk4v02Q67f3p/7X0=",
+      "Fingerprint": "9dek1ov6mo",
+      "Integrity": "vfYVBz8gYmN2FdftntfHyhTptAGWvBc26I32Y8omRD8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\logInValidation.js"
@@ -3690,7 +3690,7 @@
       ]
     },
     {
-      "Route": "js/logInValidation.0gcmwkwtsg.js",
+      "Route": "js/logInValidation.9dek1ov6mo.js",
       "AssetFile": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\js\\logInValidation.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3700,7 +3700,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7633"
+          "Value": "7219"
         },
         {
           "Name": "Content-Type",
@@ -3708,11 +3708,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gOcrMxQTIvTXuFqn56WsAO4W0+wjk4v02Q67f3p/7X0=\""
+          "Value": "\"vfYVBz8gYmN2FdftntfHyhTptAGWvBc26I32Y8omRD8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Jul 2025 20:53:38 GMT"
+          "Value": "Thu, 31 Jul 2025 03:38:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3722,7 +3722,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0gcmwkwtsg"
+          "Value": "9dek1ov6mo"
         },
         {
           "Name": "label",
@@ -3730,7 +3730,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-gOcrMxQTIvTXuFqn56WsAO4W0+wjk4v02Q67f3p/7X0="
+          "Value": "sha256-vfYVBz8gYmN2FdftntfHyhTptAGWvBc26I32Y8omRD8="
         }
       ]
     },
@@ -3745,7 +3745,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7633"
+          "Value": "7219"
         },
         {
           "Name": "Content-Type",
@@ -3753,11 +3753,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gOcrMxQTIvTXuFqn56WsAO4W0+wjk4v02Q67f3p/7X0=\""
+          "Value": "\"vfYVBz8gYmN2FdftntfHyhTptAGWvBc26I32Y8omRD8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Jul 2025 20:53:38 GMT"
+          "Value": "Thu, 31 Jul 2025 03:38:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3767,7 +3767,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gOcrMxQTIvTXuFqn56WsAO4W0+wjk4v02Q67f3p/7X0="
+          "Value": "sha256-vfYVBz8gYmN2FdftntfHyhTptAGWvBc26I32Y8omRD8="
         }
       ]
     },

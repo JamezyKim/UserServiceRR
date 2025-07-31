@@ -276,17 +276,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-meaR\u002BuXojrNrr7JHWLNfD5kHCClfjyq\u002BIiGJHjKPd2o="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"87533"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022meaR\u002BuXojrNrr7JHWLNfD5kHCClfjyq\u002BIiGJHjKPd2o=\u0022"},{"Name":"Last-Modified","Value":"Sat, 24 May 2025 02:08:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/UserServiceRR/js/logInValidation.0gcmwkwtsg.js">
+    <StaticWebAssetEndpoint Include="_content/UserServiceRR/js/logInValidation.9dek1ov6mo.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\logInValidation.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0gcmwkwtsg"},{"Name":"integrity","Value":"sha256-gOcrMxQTIvTXuFqn56WsAO4W0\u002Bwjk4v02Q67f3p/7X0="},{"Name":"label","Value":"_content/UserServiceRR/js/logInValidation.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7633"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022gOcrMxQTIvTXuFqn56WsAO4W0\u002Bwjk4v02Q67f3p/7X0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 20:53:38 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9dek1ov6mo"},{"Name":"integrity","Value":"sha256-vfYVBz8gYmN2FdftntfHyhTptAGWvBc26I32Y8omRD8="},{"Name":"label","Value":"_content/UserServiceRR/js/logInValidation.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7219"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022vfYVBz8gYmN2FdftntfHyhTptAGWvBc26I32Y8omRD8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 31 Jul 2025 03:38:04 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/UserServiceRR/js/logInValidation.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\logInValidation.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gOcrMxQTIvTXuFqn56WsAO4W0\u002Bwjk4v02Q67f3p/7X0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7633"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022gOcrMxQTIvTXuFqn56WsAO4W0\u002Bwjk4v02Q67f3p/7X0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 20:53:38 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vfYVBz8gYmN2FdftntfHyhTptAGWvBc26I32Y8omRD8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7219"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022vfYVBz8gYmN2FdftntfHyhTptAGWvBc26I32Y8omRD8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 31 Jul 2025 03:38:04 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/UserServiceRR/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

@@ -4,6 +4,7 @@ using UserServiceRR.Models;
 using Microsoft.EntityFrameworkCore;
 namespace UserServiceRR.Controllers;
 
+
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
