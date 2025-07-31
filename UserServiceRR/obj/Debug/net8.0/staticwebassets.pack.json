@@ -81,6 +81,10 @@
       "PackagePath": "staticwebassets\\html\\Permission.html"
     },
     {
+      "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\User.html",
+      "PackagePath": "staticwebassets\\html\\User.html"
+    },
+    {
       "Id": "C:\\Users\\PC\\source\\repos\\UserServiceRR\\UserServiceRR\\wwwroot\\html\\homePage.html",
       "PackagePath": "staticwebassets\\html\\homePage.html"
     },

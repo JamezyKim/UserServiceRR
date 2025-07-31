@@ -12,6 +12,7 @@ wwwroot\html\homePage.html
 wwwroot\html\Permission.html
 wwwroot\html\signIn.html
 wwwroot\html\signUp.html
+wwwroot\html\User.html
 wwwroot\Images\Baby.webp
 wwwroot\Images\clothing.jpg
 wwwroot\Images\Electronics.jpg

@@ -167,4 +167,21 @@ public class HomeController : Controller
         }
         return "add user info";
     }
+    //public JsonResult GetUserProf(string email, string birthDay, string userName)
+    //{
+    //    ApplicationDbContext context = new ApplicationDbContext(contextOptions);
+    //    var userInfo = new User();
+    //    var result = "";
+    //    using (context)
+    //    {
+    //        var users = context.User.ToList();
+    //        foreach (var user in users)
+    //        {
+    //            result += "ID: " + userInfo.ID + "UserName: " + user.UserName + "BirthDay: " + user.BirthDay + "PhoneNumber: " + user.PhoneNumber + "Email: " + user.Email + "Password: " + user.Password + "PasswordHint: " + user.PasswordHint + "CreatedDate: " + user.CreatedDate + "ModifiedDate: " + user.ModifiedDate;
+    //        }
+    //    }
+
+
+    //    return result;
+    //}
 }

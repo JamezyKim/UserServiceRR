@@ -4,6 +4,7 @@ var phoneNumber;
 var email;
 var password;
 var logInUrl;
+var profileUrl;
 var confirmPassword;
 var passwordHint;
 var day;
@@ -73,6 +74,22 @@ function getUserInfo() {
     window.location.replace(logInUrl);
 }
 
+function getUserProfile() {
+
+    email = document.getElementById("emailSignUp") || document.getElementById("emailForgetPassword");
+    email = email.value;
+    firstName = document.getElementById("firstNameSignUp") || document.getElementById("firstNameForgetPassword");
+    firstName = firstName.value;
+    lastName = document.getElementById("lastNameSignUp") || document.getElementById("lastNameForgetPassword");
+    lastName = lastName.value;
+    userName = firstName + " " + lastName;
+    year = document.getElementById("birthYearSignUp") || document.getElementById("birthYearForgetPassword");
+    month = document.getElementById("birthMonth");
+    day = document.getElementById("birthDaySignUp") || document.getElementById("birthDayForgetPassword");
+    birthDay = year.value + "-" + month.value + "-" + formatBirthDayWithZero(day.value);
+    profileUrl = "https://localhost:7245/Home/GetUserProf?email=" + email + "&firstName=" + firstName + "&lastName=" + lastName + "&birthDay=" + birthDay + "&phoneNumber=" + phoneNumber + "&password=" + password + "";
+}
+
 function forgetPassword() {
     email = document.getElementById("emailSignUp") || document.getElementById("emailForgetPassword");
     email = email.value;
@@ -81,7 +98,6 @@ function forgetPassword() {
     lastName = document.getElementById("lastNameSignUp") || document.getElementById("lastNameForgetPassword");
     lastName = lastName.value;
     userName = firstName + " " + lastName;
-    //birthDay = (document.getElementById("birthYearSignUp") || document.getElementById("birthYearForgetPassword")) + "-" + (document.getElementById("birthMonthSignUp") || document.getElementById("birthMonthForgetPassword")) + "-" + formatBirthDayWithZero(document.getElementById("birthDaySignUp")) || formatBirthDayWithZero(document.getElementById("birthDayForgetPassword"));
     year = document.getElementById("birthYearSignUp") || document.getElementById("birthYearForgetPassword");
     month = document.getElementById("birthMonth");
     day = document.getElementById("birthDaySignUp") || document.getElementById("birthDayForgetPassword");
@@ -99,7 +115,10 @@ function addUserInfo() {
     }
     firstName = document.getElementById("firstNameSignUp").value || document.getElementById("firstNameForgetPassword").value;
     lastName = document.getElementById("lastNameSignUp").value || document.getElementById("lastNameSignUp").value;
-    birthDay = (document.getElementById("birthYearSignUp").value || document.getElementById("birthYearForgetPassword").value) + "-" + (document.getElementById("birthMonthSignUp").value || document.getElementById("birthMonthForgetPassword").value) + "-" + formatBirthDayWithZero(document.getElementById("birthDaySignUp").value) || formatBirthDayWithZero(document.getElementById("birthDayForgetPassword").value);
+    year = document.getElementById("birthYearSignUp") || document.getElementById("birthYearForgetPassword");
+    month = document.getElementById("birthMonth");
+    day = document.getElementById("birthDaySignUp") || document.getElementById("birthDayForgetPassword");
+    birthDay = year.value + "-" + month.value + "-" + formatBirthDayWithZero(day.value);
     phoneNumber = document.getElementById("phoneNumber").value;
     email = document.getElementById("emailSignUp").value || document.getElementById("emailForgetPassword").value;
     password = encrypt();
